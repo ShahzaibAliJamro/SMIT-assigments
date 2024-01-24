@@ -1,0 +1,116 @@
+                h1 {
+                    text-align: center;
+                    font-size: 70px;
+                }
+                
+                p {
+                    text-align: center;
+                    font-size: 25px;
+                }
+                
+                .tbl {
+                    background-color: blueviolet;
+                    text-align: center;
+                    padding: 25px;
+                }
+                
+                .nav {
+                    color: azure;
+                    font-size: 25px;
+                    text-decoration: none;
+                }
+                
+                .nav:hover {
+                    color: chartreuse;
+                    text-shadow: ;
+                }
+                
+                @font-face {
+                    font-family: 'Luckiest Guy';
+                    src: url(../fonts/LuckiestGuy-Regular.ttf);
+                }
+                
+                @font-face {
+                    font-family: 'Poppins';
+                    src: url(../fonts/Poppins-Regular.ttf);
+                }
+                
+                @font-face {
+                    font-family: 'Satisfy';
+                    src: url(../fonts/Satisfy-Regular.ttf)
+                }
+                
+                @font-face {
+                    font-family: 'Pacifico';
+                    src: url(../fonts/Pacifico-Regular.ttf)
+                }
+                
+                @font-face {
+                    font-family: 'KGAlwaysAGoodTime';
+                    src: url(../fonts/KGAlwaysAGoodTime.ttf)
+                }
+                
+                @font-face {
+                    font-family: 'PinkChicken';
+                    src: url(../fonts/PinkChicken-Regular.ttf)
+                }
+                
+                .poem1 {
+                    font-family: 'Luckiest Guy';
+                    color: aqua;
+                }
+                
+                .poem1:first-letter {
+                    color: greenyellow;
+                    font-size: 120px;
+                }
+                
+                .para {
+                    font-family: 'Poppins';
+                    font-weight: bold;
+                    color: teal;
+                }
+                
+                .para:first-line {
+                    color: brown;
+                }
+                
+                .poem2 {
+                    font-family: 'Pacifico';
+                    color: chocolate;
+                }
+                
+                .poem2:first-letter {
+                    color: yellow;
+                    font-size: 120px;
+                }
+                
+                .poem3 {
+                    font-family: 'Satisfy';
+                    color: rgb(255, 0, 0);
+                }
+                
+                .poem3:first-letter {
+                    color: rgb(0, 255, 0);
+                    font-size: 120px;
+                }
+                
+                .poem4 {
+                    font-family: 'Pacifico';
+                    color: rgb(255, 0, 255);
+                }
+                
+                .poem4:first-letter {
+                    color: rgb(68, 0, 255);
+                    font-size: 120px;
+                }
+                
+                .poem5 {
+                    font-family: 'PinkChicken';
+                    color: rgb(0, 255, 42);
+                }
+                
+                .poem5:first-letter {
+                    color: rgb(0, 247, 255);
+                    font-size: 120px;
+                }
