@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: blueviolet;
+    color: white;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 2.3rem;
+    margin: 10px;
+}
+#main-heading{
+    text-align: center;
+    padding: 4%;
+    font-size: 4rem;
+    color: aqua;
+}
+#main-heading:first-letter{
+    color: greenyellow;
+    font-size: 7rem;
+}
+#para{
+    color: brown;
+    font-family: fangsong;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+#para::first-line{
+    color: brown;
+}
+.nav-items:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
