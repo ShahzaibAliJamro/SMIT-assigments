@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salt'n Pepper</title>
     <link rel="stylesheet" href="./style.css">
+    <link media="print" onload="this.media='all'" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"/>
+    <link media="print" onload="this.media='all'" rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link media="print" onload="this.media='all'" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"/>
+    <link media="print" onload="this.media='all'" rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-iKbFRxucmOHIcpWdX9NTZ5WETOPm0Goy0WmfyNcl52qSYtc2Buk0NCe6jU1sWWNB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <div>
@@ -19,7 +31,9 @@
                 </ul>
                 <ul id="buttons" class="listtypenone">
                     <li><a id="firstbutton" class="notextdeco buttons" href="#">Get a Franchise</a></li>
-                    <li><a id="secondbutton" class="notextdeco buttons" href="#">Order Online</a></li>
+                    <li><a id="secondbutton" class="notextdeco buttons" href="#">Order Online
+                        <i id="secondbutton-arrow" class="fa fa-solid fa-arrow-right"></i>
+                    </a></li>
                 </ul>
             </nav>
         </header>
@@ -81,19 +95,27 @@
         <div id="first-franchise-main">
             <div id="first-franchise-main-first">
                 <div id="first-franchise-main-side">
-                    <span id="first-franchise-main-side-text-one">ISLAMABAD</span>
-                    <span id="first-franchise-main-side-text-two">
-                        Salt'n Pepper
-                        <span id="first-franchise-main-side-text-two-a">
+                    <div>
+                        <span id="first-franchise-main-side-text-one">ISLAMABAD</span>
+                        <span id="first-franchise-main-side-text-two">
+                            <span id="first-franchise-main-side-text-two-a">
+                            Salt'n Pepper
+                            </span>
                             Restaurant
                         </span>
-                    </span>
-                    <p> Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad </p>
-                    <p><a href="tel:051-2604904-6">
-                        <i class="fa fa-phone" aria-hidden="true"></i> Ph: 051-2604904-6</a>
-                    </p>
+                        <p id="first-franchise-main-side-text-three"> <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+                        Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad </p>
+                        <p id="first-franchise-main-side-text-four"><a class="notextdeco" href="tel:051-2604904-6">
+                            <i class="fa fa-phone" aria-hidden="true"></i> Ph: 051-2604904-6</a>
+                        </p>
+                    </div>
+                    <div>
+                        <a id="first-franchise-first-button" class="notextdeco" href="#">Order Online
+                            <i id="secondbutton-arrow" class="fa fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
-                <img src="./assets/franchise-main 1.webp">
+                <img id="first-franchise-img-one" src="./assets/franchise-main 1.webp">
             </div>
         </div>
     </div>
