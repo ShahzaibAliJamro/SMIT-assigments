@@ -4,50 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salt'n Pepper</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="navbar">
-        <div id="div1">
+    <div>
+        <header id="header">
             <img id="logo" src="./assets/logo.webp">
-            <div id="div2">
-                <div id="nav-list">
-                    <span class="nav-list">
-                        <a class="notextdecoration navbaritems" href="index.html">
-                            Home
-                        </a>
-                    </span>
-                    <span class="nav-list">
-                        <a class="notextdecoration navbaritems" href="./aboutus/aboutus.html">
-                            About Us
-                        </a>
-                    </span>
-                    <span class="nav-list">
-                        <a class="notextdecoration navbaritems" href="./publications/publications.html">
-                            Publications
-                        </a>
-                    </span>
-                    <span class="nav-list">
-                        <a class="notextdecoration navbaritems" href="./feedback/feedback.html">
-                            Feedback
-                        </a>
-                    </span>
-                    <div>
-                        <span>
-                            <a class="notextdecoration" id="gaf" href="#">
-                                Get a Franchise
-                            </a>
+            <nav class="navbar">
+                <ul class="listtypenone navbar-items">
+                    <li><a class="notextdeco hover" href="#">Home</a></li>
+                    <li><a class="notextdeco hover" href="#">About Us</a></li>
+                    <li><a class="notextdeco hover" href="#">Publications</a></li>
+                    <li><a class="notextdeco hover" href="#">Feedback</a></li>
+                </ul>
+                <ul id="buttons" class="listtypenone">
+                    <li><a id="firstbutton" class="notextdeco buttons" href="#">Get a Franchise</a></li>
+                    <li><a id="secondbutton" class="notextdeco buttons" href="#">Order Online</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="imgcontainer">
+        <img id="banner" src="./assets/banner.webp">
+    </div>
+    <div id="welcome-outside">
+        <div id="welcome-main">
+            <span id="welcome-text">
+                Welcome to 
+                <span class="logo-text">
+                    Salt'n Pepper
+                </span>
+                <br>
+                Restaurants! Our Brands
+            </span>
+            <span class="welcome-description">
+                Please click our brands below for further information, reservations or to order online!
+            </span>
+        </div>
+        <div id="product-brand-main">
+            <ul id="product-brand">
+                <li class="order-images-list">
+                    <a href="#">
+                        <img class="order-images" src="./assets/product-brand-main-1.webp">
+                    </a>
+                    <a class="order-now notextdeco" href="#">Order Now</a>
+                </li>
+                <li class="order-images-list">
+                    <a href="#">
+                        <img class="order-images" src="./assets/product-brand-main-2.webp">
+                    </a>
+                    <a class="order-now notextdeco" href="#">Order Now</a>
+                </li>
+                <li class="order-images-list">
+                    <a href="#">
+                        <img class="order-images" src="./assets/product-brand-main-3.webp">
+                    </a>
+                    <a class="order-now notextdeco" href="#">Reserve a table</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="first-franchise-outside">
+        <img id="large-s" src="./assets/large s.webp">
+        <div id="first-franchise-main-text">
+            <span class="franchise-text">
+                Salt'n Pepper
+            <br>
+                <span class="franchise-text2">
+                    Restaurant Franchises
+                </span>
+            </span>
+            <span class="welcome-description">
+                Each of our franchises are individually managed. For further details, kindly contact them directly.
+            </span>
+        </div>
+        <div id="first-franchise-main">
+            <div id="first-franchise-main-first">
+                <div id="first-franchise-main-side">
+                    <span id="first-franchise-main-side-text-one">ISLAMABAD</span>
+                    <span id="first-franchise-main-side-text-two">
+                        Salt'n Pepper
+                        <span id="first-franchise-main-side-text-two-a">
+                            Restaurant
                         </span>
-                        <span>
-                            <a class="notextdecoration" id="oo" href="#">
-                                Order Online
-                            </a>
-                        </span>
-                    </div>
+                    </span>
+                    <p> Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad </p>
+                    <p><a href="tel:051-2604904-6">
+                        <i class="fa fa-phone" aria-hidden="true"></i> Ph: 051-2604904-6</a>
+                    </p>
                 </div>
+                <img src="./assets/franchise-main 1.webp">
             </div>
         </div>
     </div>
-    <img id="banner" src="./assets/banner.webp">
 </body>
 </html>
