@@ -51,12 +51,26 @@ button{
 #banner{
     width: 100%;
 }
-@media (min-width: 640px) {
+#bar{
+    font-size: 3rem;
+    display: none;
+}
+@media (max-width: 768px) {
     html{
         font-size: 45%;
     }
+    #bar{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    header{
+        justify-content: space-between;
+        padding: 1rem 5rem;
+    }
 }
-@media (min-width: 768px) {
+@media (max-width: 849px) {
     html{
         font-size: 50%;
     }
