@@ -64,7 +64,7 @@ body{
     padding: 16px 22px 16px 22px;
     border-radius: 25px;
 }
-#secondbutton-arrow{
+.secondbutton-arrow{
     background-color: #fff;
     color: #dc3545;
     padding: 6px 7px;
@@ -157,6 +157,7 @@ body{
 #first-franchise-outside{
     background-color: rgba(255, 255, 255, 0.06);
     padding-top: 5%;
+    padding-bottom: 5%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -193,11 +194,14 @@ body{
     color: rgba(255, 255, 255, 0.7);
 }
 #first-franchise-main{
-    width: 80%;
+    gap: 45px;
+    flex-direction: column;
+    display: flex;
+    width: 71.5%;
     margin: 0 auto;
     text-align: center;
 }
-#first-franchise-main-side-text-one{
+.first-franchise-main-side-text-one{
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -206,19 +210,20 @@ body{
     margin-bottom: 8px;
     display: block;
 }
-#first-franchise-main-first{
+.first-franchise-main-first{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 25px;
 }
-#first-franchise-main-side-text-two-a{
+.first-franchise-main-side-text-two-a{
     font-weight: 400;
     font-size: 32px;
     line-height: 29px;
     text-align: center;
     font-family: 'Black Ops One', system-ui;
 }
-#first-franchise-main-side-text-two{
+.first-franchise-main-side-text-two{
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
@@ -228,14 +233,14 @@ body{
     line-height: 38px;
     display: block;
 }
-#first-franchise-main-side{
+.first-franchise-main-side{
     text-align: left;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 60px;
 }
-#first-franchise-main-side-text-three{
+.first-franchise-main-side-text-three{
     font-family: 'Lato' , sans-serif ;
     font-weight: 400;
     font-size: 16px;
@@ -244,7 +249,7 @@ body{
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 10px;
 }
-#first-franchise-main-side-text-four{
+.first-franchise-main-side-text-four{
     font-family: 'Lato' , sans-serif ;
     font-weight: 400;
     font-size: 16px;
@@ -255,16 +260,22 @@ body{
 .fa-phone{
     transform: rotate(90deg);
 }
-#first-franchise-first-button{
+.first-franchise-first-button{
     padding: 15px 30px 15px 30px;
     border: 1px solid var(--white);
     border-radius: 35px;
 }
-#first-franchise-first-button:hover{
+.first-franchise-first-button:hover{
     color: var(--white);
     background-color: var(--red);
     border: none;
 }
 #first-franchise-img-one{
-    width: 47%;
+
+}
+#first-franchise-main-second{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 33px;
 }
