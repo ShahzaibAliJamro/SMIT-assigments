@@ -303,7 +303,16 @@ body{
     top: 32px;
     width: 23%;
 }
+#large-blur{
+    height: 900px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 29%;
+    z-index: 0;
+}
 #second-franchise-main{
+    z-index: 5;
     gap: 4.5rem;
     flex-direction: column;
     display: flex;
@@ -327,6 +336,8 @@ body{
     align-items: center;
 }
 #second-franchise-main-first{
+    flex-wrap: wrap;
+    gap: 3.9rem;
     display: flex;
     justify-content: space-between;
 }
@@ -348,6 +359,7 @@ body{
     line-height: 2.9rem;
 }
 .second-franchise-main-side-text-three{
+    margin: 0 auto;
     font-family: 'Lato' , sans-serif ;
     font-weight: 400;
     font-size: 1.4rem;
@@ -368,8 +380,13 @@ body{
 .fa37{
     transform: rotate(-37deg);
 }
-
-
+#promotion-section{
+    background-color: #0f0f0f;
+    padding-top: 5rem;
+}
+#promotion-section-head{
+    padding-bottom: 3.5rem;
+}
 
 
 
@@ -393,6 +410,9 @@ body{
 
 
 @media(max-width:1400px){
+    #second-franchise-main{
+        width: 80%;
+    }
     #first-franchise-main{
         width: 80%;
     }
