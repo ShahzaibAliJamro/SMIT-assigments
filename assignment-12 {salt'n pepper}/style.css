@@ -8,6 +8,9 @@
     --secondary: #6c757d;
     --dark: #343a40;
 }
+html{
+    font-size: 62.5%;
+}
 *{
     padding: 0;
     margin: 0;
@@ -26,43 +29,43 @@ body{
     list-style-type: none;
 }
 #logo{
-    height: 75px;
+    height: 7.5rem;
 }
 #header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 0px 20px 0px;
+    padding: 1rem 0px 2rem 0px;
 }
 .navbar{
     display: flex;
-    gap: 40px;
-    font-size: 16px;
+    gap: 4rem;
+    font-size: 1.6rem;
     font-weight: 600;
     flex-wrap: wrap;
     justify-content: center;
 }
 .navbar-items{
     display: flex;
-    gap: 30px;
+    gap: 3rem;
     align-items: center;
 }
 #buttons{
     display: flex;
-    gap: 20px;
+    gap: 2rem;
     align-items: baseline;
 }
 #firstbutton{
-    padding: 15px 30px 15px 30px;
+    padding: 1.5rem 3rem 1.5rem 3rem;
     border: 1px solid var(--white);
-    border-radius: 35px;
+    border-radius: 3.5rem;
 }
 #secondbutton{
     background-color: var(--red);
     color: var(--white);
     border: none;
-    padding: 16px 22px 16px 22px;
-    border-radius: 25px;
+    padding: 1.6rem 2.2rem 1.6rem 2.2rem;
+    border-radius: 2.5rem;
 }
 .secondbutton-arrow{
     background-color: #fff;
@@ -91,7 +94,7 @@ body{
     padding-top: 5%;
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 3.5rem;
     padding-bottom: 10%;
 }
 #welcome-main{
@@ -101,29 +104,30 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 1.5rem;
 }
 #welcome-text{
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 400;
     letter-spacing: 2px;
     display: block;
-    line-height: 50px;
+    line-height: 5rem;
 }
 .logo-text{
-    font-size: 52px;
+    font-size: 5.2rem;
     font-weight: 600;
     letter-spacing: 1px;
-    line-height: 62px;
+    line-height: 6.2rem;
     color: var(--red);
     font-family: 'Black Ops One', system-ui;
 }
 .order-now{
+    font-size: 1.4rem;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    width: 174px;
+    width: 17.4rem;
     margin: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     border-radius: 37px;
     text-align: center;
 }
@@ -134,11 +138,11 @@ body{
 .order-images-list{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 2rem;
 }
 #product-brand{
     display: flex;
-    gap: 30px;
+    gap: 3rem;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -146,8 +150,8 @@ body{
     background-color: var(--white);
     border-radius: 5px;
     padding: 5px 19px;
-    width: 250px;
-    height: 140px;
+    width: 25rem;
+    height: 14rem;
 }
 #product-brand-main{
     width: 80%;
@@ -161,7 +165,7 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 5rem;
 }
 #large-s{
     position: absolute;
@@ -173,28 +177,28 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 13px;
+    gap: 1.3rem;
     width: 80%;
     margin: 0 auto;
     align-items: center;
 }
 .franchise-text{
-    font-size: 52px;
+    font-size: 5.2rem;
     font-family: 'Black Ops One', system-ui;
 }
 .franchise-text2{
-    font-size: 48px;
+    font-size: 4.8rem;
     font-family: 'Lato' , sans-serif;
 }
 .welcome-description{
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.7);
 }
 #first-franchise-main{
-    gap: 45px;
+    gap: 4.5rem;
     flex-direction: column;
     display: flex;
     width: 71.5%;
@@ -203,8 +207,8 @@ body{
 }
 .first-franchise-main-side-text-one{
     font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1.6rem;
+    line-height: 2rem;
     letter-spacing: 0.48em;
     color: var(--red);
     margin-bottom: 8px;
@@ -214,23 +218,21 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 2.5rem;
 }
 .first-franchise-main-side-text-two-a{
     font-weight: 400;
-    font-size: 32px;
-    line-height: 29px;
+    font-size: 3.2rem;
+    line-height: 2.9rem;
     text-align: center;
     font-family: 'Black Ops One', system-ui;
 }
 .first-franchise-main-side-text-two{
     font-weight: 400;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
     margin-bottom: 24px;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 38px;
     display: block;
 }
 .first-franchise-main-side{
@@ -238,13 +240,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 60px;
+    gap: 6rem;
 }
 .first-franchise-main-side-text-three{
     font-family: 'Lato' , sans-serif ;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 10px;
@@ -252,8 +254,8 @@ body{
 .first-franchise-main-side-text-four{
     font-family: 'Lato' , sans-serif ;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -261,6 +263,7 @@ body{
     transform: rotate(90deg);
 }
 .first-franchise-first-button{
+    font-size: 1.4rem;
     padding: 15px 30px 15px 30px;
     border: 1px solid var(--white);
     border-radius: 35px;
@@ -271,14 +274,25 @@ body{
     border: none;
 }
 #first-franchise-img-one{
-
+    width: 49%;
+    /* height: 29.45rem;
+    width: 54rem; */
+}
+#first-franchise-img-two{
+    /* height: 29.45rem;
+    width: 54rem; */
+    width: 49%;
+}
+#first-franchise-img-three{
+    /* height: 29.45rem;
+    width: 54rem; */
+    width: 49%;
 }
 #first-franchise-main-second{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 33px;
-<<<<<<< HEAD
+    gap: 3.3rem;
 }
 #second-franchise-outside{
     background-color: #000000;
@@ -287,7 +301,7 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 4rem;
 }
 #large-p{
     position: absolute;
@@ -296,7 +310,7 @@ body{
     width: 23%;
 }
 #second-franchise-main{
-    gap: 45px;
+    gap: 4.5rem;
     flex-direction: column;
     display: flex;
     width: 71.5%;
@@ -305,8 +319,8 @@ body{
 }
 .second-franchise-main-side-text-one{
     font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1.6rem;
+    line-height: 2rem;
     letter-spacing: 0.48em;
     color: var(--red);
     margin-bottom: 8px;
@@ -315,11 +329,88 @@ body{
 #second-franchise-main-first-a{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 3rem;
 }
 #second-franchise-main-first{
     display: flex;
     justify-content: space-between;
-=======
->>>>>>> 5e87b87c7ee971a71ae776dc4b231304abaf0755
+}
+@media(max-width:1400px){
+    #first-franchise-main{
+        width: 80%;
+    }
+}
+@media(min-width:1401px){
+    #first-franchise-main{
+        width: 75%;
+    }
+}
+@media(min-width:1520px){
+    #first-franchise-main{
+        width: 71.5%;
+    }
+}
+@media(max-width:1250px){
+    #first-franchise-img-two{
+        order: 2;
+    }
+    #first-franchise-main-second {
+        justify-content: space-between;
+    }
+}
+
+@media(min-width:1600px){
+    html{
+        font-size: 64%;
+    }
+}
+@media(min-width:1550px){
+    html{
+        font-size: 62.5%;
+    }
+}
+@media(min-width:1500px){
+    html{
+        font-size: 61.5%;
+    }
+}
+@media(min-width:1450px){
+    html{
+        font-size: 60.5%;
+    }
+}
+@media(min-width:1400px){
+    html{
+        font-size: 59.5%;
+    }
+}
+@media(min-width:1350px){
+    html{
+        font-size: 58.5%;
+    }
+}
+@media(min-width:1300px){
+    html{
+        font-size: 58%;
+    }
+}
+@media(min-width:1250px){
+    html{
+        font-size: 57%;
+    }
+}
+@media(min-width:1200px){
+    html{
+        font-size: 56%;
+    }
+}
+@media(min-width:1150px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(min-width:1100px){
+    html{
+        font-size: 54%;
+    }
 }
