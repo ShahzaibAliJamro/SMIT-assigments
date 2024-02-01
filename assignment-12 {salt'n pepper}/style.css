@@ -16,6 +16,7 @@
 body{
     background-color: var(--black);
     color: var(--white);
+    font-family: 'Lato', sans-serif;
 }
 .notextdeco{
     text-decoration: none;
@@ -44,15 +45,17 @@ body{
 .navbar-items{
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 #buttons{
     display: flex;
-    gap: 30px;
+    gap: 20px;
+    align-items: baseline;
 }
 #firstbutton{
-    padding: 16px 20px 16px 20px;
+    padding: 15px 30px 15px 30px;
     border: 1px solid var(--white);
-    border-radius: 25px;
+    border-radius: 35px;
 }
 #secondbutton{
     background-color: var(--red);
@@ -60,6 +63,13 @@ body{
     border: none;
     padding: 16px 22px 16px 22px;
     border-radius: 25px;
+}
+.secondbutton-arrow{
+    background-color: #fff;
+    color: #dc3545;
+    padding: 6px 7px;
+    border-radius: 23px;
+    margin-left: 7px;
 }
 #firstbutton:hover{
     color: var(--white);
@@ -106,6 +116,7 @@ body{
     letter-spacing: 1px;
     line-height: 62px;
     color: var(--red);
+    font-family: 'Black Ops One', system-ui;
 }
 .order-now{
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -146,6 +157,7 @@ body{
 #first-franchise-outside{
     background-color: rgba(255, 255, 255, 0.06);
     padding-top: 5%;
+    padding-bottom: 5%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -157,7 +169,7 @@ body{
     top: 32px;
     width: 23%;
 }
-#first-franchise-main-text{
+.first-franchise-main-text{
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -168,9 +180,11 @@ body{
 }
 .franchise-text{
     font-size: 52px;
+    font-family: 'Black Ops One', system-ui;
 }
 .franchise-text2{
     font-size: 48px;
+    font-family: 'Lato' , sans-serif;
 }
 .welcome-description{
     font-weight: 400;
@@ -180,11 +194,14 @@ body{
     color: rgba(255, 255, 255, 0.7);
 }
 #first-franchise-main{
-    width: 85%;
+    gap: 45px;
+    flex-direction: column;
+    display: flex;
+    width: 71.5%;
     margin: 0 auto;
     text-align: center;
 }
-#first-franchise-main-side-text-one{
+.first-franchise-main-side-text-one{
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -193,23 +210,113 @@ body{
     margin-bottom: 8px;
     display: block;
 }
-#first-franchise-main-first{
+.first-franchise-main-first{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
 }
-#first-franchise-main-side-text-two-a{
+.first-franchise-main-side-text-two-a{
     font-weight: 400;
     font-size: 32px;
     line-height: 29px;
     text-align: center;
-    color: #FFFFFF;
+    font-family: 'Black Ops One', system-ui;
 }
-#first-franchise-main-side-text-two{
+.first-franchise-main-side-text-two{
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
     margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: block;
 }
-#first-franchise-main-side{
+.first-franchise-main-side{
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+}
+.first-franchise-main-side-text-three{
+    font-family: 'Lato' , sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+.first-franchise-main-side-text-four{
+    font-family: 'Lato' , sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.fa-phone{
+    transform: rotate(90deg);
+}
+.first-franchise-first-button{
+    padding: 15px 30px 15px 30px;
+    border: 1px solid var(--white);
+    border-radius: 35px;
+}
+.first-franchise-first-button:hover{
+    color: var(--white);
+    background-color: var(--red);
+    border: none;
+}
+#first-franchise-img-one{
+
+}
+#first-franchise-main-second{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+#second-franchise-outside{
+    background-color: #000000;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#large-p{
+    position: absolute;
+    left: 32px;
+    top: 32px;
+    width: 23%;
+}
+#second-franchise-main{
+    gap: 45px;
+    flex-direction: column;
+    display: flex;
+    width: 71.5%;
+    margin: 0 auto;
+    text-align: center;
+}
+.second-franchise-main-side-text-one{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    color: var(--red);
+    margin-bottom: 8px;
+    display: block;
+}
+#second-franchise-main-first-a{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#second-franchise-main-first{
+    display: flex;
+    justify-content: space-between;
 }
