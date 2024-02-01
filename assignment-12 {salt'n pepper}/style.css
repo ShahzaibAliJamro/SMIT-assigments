@@ -278,6 +278,7 @@ body{
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 33px;
+<<<<<<< HEAD
 }
 #second-franchise-outside{
     background-color: #000000;
@@ -319,4 +320,6 @@ body{
 #second-franchise-main-first{
     display: flex;
     justify-content: space-between;
+=======
+>>>>>>> 5e87b87c7ee971a71ae776dc4b231304abaf0755
 }
