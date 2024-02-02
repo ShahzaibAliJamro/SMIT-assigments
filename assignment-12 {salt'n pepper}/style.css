@@ -190,6 +190,13 @@ body{
     font-size: 4.8rem;
     font-family: 'Lato' , sans-serif;
 }
+.franchise-text3{
+    font-family: 'Lato' , sans-serif;
+    text-transform: capitalize;
+    font-size: 2.6rem;
+    line-height: 3.1rem;
+    color: var(--white);
+}
 .welcome-description{
     font-weight: 400;
     font-size: 1.6rem;
@@ -337,7 +344,8 @@ body{
 }
 #second-franchise-main-first{
     flex-wrap: wrap;
-    gap: 3.9rem;
+    column-gap: 3rem;
+    row-gap: 3.9rem;
     display: flex;
     justify-content: space-between;
 }
@@ -394,10 +402,6 @@ body{
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-}
-#promotion-section-img{
-    width: 77.65rem;
-    height: 44.48rem;
 }
 #promotion-section-side{
     display: flex;
@@ -477,22 +481,29 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+.first-express-main-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    align-items: center;
+}
 #franchise-express-section-main-in{
-    padding-bottom: 5%;
-    padding-top: 5%;
     display: flex;
     justify-content: space-between;
+    row-gap: 3rem;
+    flex-wrap: wrap;
 }
-#franchise-express-head{
-    padding-bottom: 3.5rem;
+#franchise-express-section-main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
 }
-.franchise-express-section-card{
-    background-color: var(--white);
-    height: 230px;
+.card{
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    width: 30%;
+    justify-content: center;
 }
 .franchise-express-card-text-one{
     font-weight: 500;
@@ -519,7 +530,6 @@ body{
     line-height: 3rem;
     text-align: center;
     color: #000000;
-    display: block;
 }
 .franchise-express-card-text-four{
     font-family: 'Lato' , sans-serif ;
@@ -539,12 +549,23 @@ body{
     color: #000000;
 }
 .card-location-img{
-    height: 20px;
-    width: 20px;
+    display: block;
+    margin: 0 auto;
 }
-
-
-
+.bg-white{
+    background-color: var(--white);
+    border-radius: 7px;
+}
+.card-inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.franchise-express-one{
+    height: 25rem;
+    width: 31%;
+}
 
 
 
@@ -619,6 +640,14 @@ body{
         font-size: 58%;
     }
 }
+@media(max-width:1287px){
+    html{
+        font-size: 58%;
+    }
+    #second-franchise-main-first{
+        row-gap: 5.9rem;
+    }
+}
 @media(max-width:1250px){
     html{
         font-size: 57%;
@@ -683,8 +712,57 @@ body{
         align-items: center;
         text-align: center;
     }
+}
+#insta-section{
+    width: 100%;
+    text-align: center;
+}
+#insta-section-main{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
 
 }
+#insta-section-text-one{
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 5rem;
+}
+#insta-section-main-body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+    column-gap: 3rem;
+}
+.insta-imgs{
+    height: 25rem;
+    width: 25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:800px){
     html{
         font-size: 45%;
@@ -700,6 +778,15 @@ body{
     #first-franchise-img-three{
         width: 75%;
         margin: 0 auto;
+    }
+    .franchise-express-one{
+        height: 25rem;
+        width: 40%;
+    }
+}
+@media(max-width:665px){
+    #second-franchise-main-first {
+        justify-content: center;
     }
 }
 @media(max-width:600px){
@@ -717,5 +804,12 @@ body{
     #first-franchise-img-three{
         width: 80%;
         margin: 0 auto;
+    }
+    .franchise-express-one{
+        height: 25rem;
+        width: 60%;
+    }
+    #franchise-express-section-main-in {
+        justify-content: center;
     }
 }
