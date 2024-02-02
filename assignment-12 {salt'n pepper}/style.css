@@ -566,18 +566,178 @@ body{
     height: 25rem;
     width: 31%;
 }
+#insta-section{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 4%;
+}
+#insta-section-main{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
 
-
-
-
-
-
-
-
-
-
-
-
+}
+#insta-section-text-one{
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 5rem;
+}
+#insta-section-main-body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+    column-gap: 3rem;
+}
+.insta-imgs{
+    height: 25rem;
+    width: 25rem;
+}
+#page-bottom{
+    background-color: #0f0f0f;
+    width: 100%;
+    position: relative;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 4% 0 3% 0;
+}
+#large-s-black{
+    position: absolute;
+    bottom: 0;
+    left: 3rem;
+}
+#logo-footer{
+    width: fit-content;
+    height: 7.5rem;
+}
+#para-footer{
+    font-family: 'Lato' , sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.03em;
+}
+#logo-side{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.pr-5{
+    padding-right: 10px;
+}
+.site-links-top{
+    font-family: 'Lato' , sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: rgb(255, 255, 255);
+}
+.site-links-top:hover{
+    color: var(--red);
+}
+.site-links{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.site-links-2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.noliststyle{
+    list-style-type: none;
+}
+.d-flex-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.footerlinks1{
+    font-family: 'Lato' , sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: rgba(255, 255, 255,0.6);
+}
+.footerlinks1:hover{
+    color: var(--white);
+}
+.footer-social-media-links{
+    display: flex;
+    align-items: center;
+    margin-rgba(255, 255, 255, 0.6);
+    justify-content: center;
+    width: 4.1rem;
+    height: 4.1rem;
+    background: #ED1C24;
+    color: #fff;
+    border-radius: 5.1rem;
+}
+.footer-social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-social-media-links-i{
+    color: #ffffff;
+    font-size: 1.7rem;
+}
+.fab{
+    font-family: Font Awesome\ 5 Brands;
+    }
+.block{
+    display: block;
+}
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-images{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.copyright-section{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.6);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.copyright-section-left-text-one{
+    font-family: 'Lato' , sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.copyright-section-left-text-two{
+    font-family: 'Lato' , sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
 
 @media(max-width:1400px){
     #second-franchise-main{
@@ -713,56 +873,6 @@ body{
         text-align: center;
     }
 }
-#insta-section{
-    width: 100%;
-    text-align: center;
-}
-#insta-section-main{
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-
-}
-#insta-section-text-one{
-    font-weight: 500;
-    font-size: 3.2rem;
-    line-height: 5rem;
-}
-#insta-section-main-body{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    row-gap: 4rem;
-    column-gap: 3rem;
-}
-.insta-imgs{
-    height: 25rem;
-    width: 25rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width:800px){
     html{
         font-size: 45%;
@@ -782,6 +892,30 @@ body{
     .franchise-express-one{
         height: 25rem;
         width: 40%;
+    }
+}
+@media(max-width:700px){
+    .follow-us{
+        width: 50%;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footer-social-media {
+        justify-content: center;
+        gap: 10px;
+    }
+    .footer-images {
+        align-items: center;
+    }
+    .footer{
+        row-gap: 30px;
+    }
+    #logo-side {
+        width: 35%;
+    }
+    .site-links-2 {
+        width: 30%;
     }
 }
 @media(max-width:665px){
@@ -811,5 +945,11 @@ body{
     }
     #franchise-express-section-main-in {
         justify-content: center;
+    }
+}
+@media(max-width:510px){
+    #promotion-section-img{
+        width: 90%;
+        margin: 0 auto;
     }
 }
