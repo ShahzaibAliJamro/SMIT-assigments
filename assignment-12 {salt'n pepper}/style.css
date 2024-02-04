@@ -762,9 +762,6 @@ body{
     }
 }
 @media(max-width:1250px){
-    #first-franchise-img-two{
-        order: 2;
-    }
     #first-franchise-main-second {
         justify-content: space-between;
     }
@@ -855,6 +852,13 @@ body{
         font-size: 54%;
     }
 }
+@media(max-width:960px){
+    #first-franchise-img-two{
+        order: 2;
+    }
+}
+
+
 @media(max-width:950px){
     html{
         font-size: 50%;

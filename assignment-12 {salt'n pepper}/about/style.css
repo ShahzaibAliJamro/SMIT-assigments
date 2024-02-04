@@ -222,6 +222,13 @@ body{
     margin: 0 auto;
     text-align: center;
 }
+#first-franchise-main-new{
+    gap: 7rem;
+    flex-direction: column;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
 .first-franchise-main-first{
     display: flex;
     justify-content: space-between;
@@ -388,9 +395,6 @@ body{
     }
 } */
 @media(max-width:1250px){
-    #first-franchise-img-two{
-        order: 2;
-    }
     #first-franchise-main-second {
         justify-content: space-between;
     }
@@ -482,6 +486,9 @@ body{
     }
 }
 @media(max-width:950px){
+    #first-franchise-img-two{
+        order: 2;
+    }
     html{
         font-size: 50%;
     }
