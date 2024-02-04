@@ -273,7 +273,7 @@ body{
 }
 .first-franchise-first-button{
     font-size: 1.4rem;
-    padding: 15px 30px 15px 30px;
+    padding: 1.5rem 3rem 1.5rem 3rem;
     border: 1px solid var(--white);
     border-radius: 35px;
 }
@@ -612,9 +612,10 @@ body{
     padding: 4% 0 3% 0;
 }
 #large-s-black{
+    height: 33rem;
     position: absolute;
-    bottom: 0;
-    left: 3rem;
+    bottom: 0rem;
+    left: -4rem;
 }
 #logo-footer{
     width: fit-content;
