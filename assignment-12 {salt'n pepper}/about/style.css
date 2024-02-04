@@ -222,6 +222,19 @@ body{
     margin: 0 auto;
     text-align: center;
 }
+#first-franchise-main-new{
+    gap: 6rem;
+    flex-direction: column;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+.text-align-center{
+    text-align: center;
+}
+.red{
+    color: var(--red);
+}
 .first-franchise-main-first{
     display: flex;
     justify-content: space-between;
@@ -235,6 +248,18 @@ body{
     flex-direction: column;
     align-items: flex-start;
     gap: 6rem;
+}
+.first-franchise-main-side-new{
+    width: 46.7%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.height331{
+    height: 33.1rem;
+    width: 50%;
+    border-radius: 10px;
 }
 .first-franchise-main-side-text-one{
     font-weight: 500;
@@ -265,6 +290,15 @@ body{
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.9rem;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+.first-franchise-main-side-text-three-new{
+    font-family: 'Lato' , sans-serif ;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 10px;
@@ -307,11 +341,17 @@ body{
     width: 50%;
     border-radius: 10px;
 }
-#first-franchise-main-second{
+.first-franchise-main-second{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 4.5rem;
+}
+.first-franchise-main-second-new{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 3.5rem;
 }
 #second-franchise-outside{
     background-color: #000000;
@@ -489,6 +529,10 @@ body{
         width: 70%;
         margin: 0 auto;
     }
+    .height331{
+        width: 70%;
+        margin: 0 auto;
+    }
     #first-franchise-img-two{
         width: 70%;
         margin: 0 auto;
@@ -502,6 +546,12 @@ body{
         align-items: center;
         text-align: center;
         width: 100%;
+    }
+    .first-franchise-main-side-new{
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        width: 90%;
     }
 }
 @media(max-width:800px){
@@ -602,7 +652,22 @@ body{
         margin: 0 auto;
     }
 }
-
+@media(min-width:1323px){
+    .first-franchise-main-side-new{
+        width: 46.7%;
+    }
+    .first-franchise-main-second-new{
+        gap: 3.5rem;
+    }
+}
+@media(min-width:951px){
+    .first-franchise-main-side-new{
+        width: 44.7%;
+    }
+    .first-franchise-main-second-new{
+        gap: 3rem;
+    }
+}
 
 
 
