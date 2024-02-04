@@ -118,7 +118,6 @@ body{
 }
 .logo-text{
     font-size: 5.2rem;
-    font-weight: 600;
     letter-spacing: 1px;
     line-height: 6.2rem;
     color: var(--red);
@@ -285,12 +284,15 @@ body{
 }
 #first-franchise-img-one{
     width: 50%;
+    border-radius: 10px;
 }
 #first-franchise-img-two{
     width: 50%;
+    border-radius: 10px;
 }
 #first-franchise-img-three{
     width: 50%;
+    border-radius: 10px;
 }
 #first-franchise-main-second{
     display: flex;
