@@ -1,6 +1,33 @@
 :root{
-   --bs-tertiary-bg-rgb: rgb(248,249,0);
+   --bs-tertiary-bg-rgb:248,249,0 !important;
 }
 .logo{
     height: 24px;
+}
+.arabic{
+    font-weight: 600;
+    font-family: Cairo;
+    cursor: pointer;
+}
+.nav-border{
+    display: flex;
+    margin: 0px 10px;
+    border-left: 1px solid rgba(64, 69, 83, 0.3);
+    height: 20px;
+    align-self: center;
+}
+.navbar-text{
+    font-weight: bold;
+    flex: 1 1 0%;
+    font-size: 1.08333rem;
+    text-align: right;
+    max-width: 130px;
+    position: relative;
+    bottom: 2px;
+}
+.log-in-img{
+    width: 17px;
+    margin-left: 8px;
+    position: relative;
+    bottom: 2px;
 }
