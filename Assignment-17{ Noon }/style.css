@@ -31,3 +31,12 @@
     position: relative;
     bottom: 2px;
 }
+.all-categories{
+    width: 15%;
+}
+.mynavbottom{
+    width: 85%;
+}
+.liststyletypenone{
+    list-style-type: none;
+}
