@@ -90,6 +90,8 @@ body{
 #banner{
     width: 100%;
 }
+.hover{
+}
 .hover:hover{
     color: var(--red);
 }
