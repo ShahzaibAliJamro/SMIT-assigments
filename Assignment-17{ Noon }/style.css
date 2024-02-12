@@ -263,9 +263,23 @@ body{
     row-gap: 1rem;
 }
 
+.jbkHKC{
+    width: 15.5%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(64, 69, 83);
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid rgb(229, 229, 229);
+}
 
-
-
+.card-my-5{
+    width: 100%;
+    border-radius: 10px!important;
+    border: none!important;
+    background-color: #f8f8f9;
+}
 
 
 
