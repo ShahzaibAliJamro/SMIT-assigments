@@ -126,6 +126,16 @@ body{
     font-size: 1.5rem;
 }
 
+.in-focus-text-2{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgb(64, 69, 83);
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 .in-focus-container{
     background-color: white;
     padding: 1rem;
@@ -180,6 +190,11 @@ body{
 
 .card-my{
     width: 100%;
+    border-radius: 10px!important;
+}
+
+.card-my-2{
+    width: 15.5%;
     border-radius: 10px!important;
 }
 
@@ -294,6 +309,9 @@ body{
     .in-focus-text{
         font-size: 1.4rem;
     }
+    .in-focus-text-2{
+        font-size: 1.4rem;
+    }
 }
 
 @media (max-width: 900px) {
@@ -321,6 +339,9 @@ body{
         padding: 5.5px 10px;
     }
     .in-focus-text{
+        font-size: 1.3rem;
+    }
+    .in-focus-text-2{
         font-size: 1.3rem;
     }
 }
@@ -400,6 +421,9 @@ body{
     .in-focus-text{
         font-size: 1.1rem;
     }
+    .in-focus-text-2{
+        font-size: 1.1rem;
+    }
     .classofrowgap{
         row-gap: 0.7rem;
     }
@@ -432,6 +456,9 @@ body{
         padding: 4px 5px;
     }
     .in-focus-text {
+        font-size: 0.9rem;
+    }
+    .in-focus-text-2{
         font-size: 0.9rem;
     }
     .classofrowgap{
