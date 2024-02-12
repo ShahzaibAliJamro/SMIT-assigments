@@ -112,7 +112,7 @@ body{
 
 .mega-deals-in{
     background-color: #fcd5d5;
-    padding: 7px 15px 15px 15px;
+    padding: 7px 1rem 1rem 1rem;
 }
 
 .in-focus-text{
@@ -127,7 +127,7 @@ body{
 
 .in-focus-container{
     background-color: white;
-    padding: 15px;
+    padding: 1rem;
 }
 
 .in-focus-img{
@@ -144,6 +144,57 @@ body{
 
 .mega-deals-inside-products-img-container{
     background-color: white;
+}
+
+.cart-out{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.one-zero-four-nine{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    font-weight: 700;
+    font-size: smaller;
+}
+
+.eight-nine-nine{
+    font-weight: 700;
+    font-size: larger;
+}
+
+.card-text-my{
+    line-height: 1.2;
+    font-weight: 500;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    letter-spacing: 0.2px;
+    padding: 0px 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.8rem;
+}
+
+.cart-add{
+    width: 1.5rem;
+    max-width: unset;
+    height: 1.5rem;
+    max-height: unset;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    box-sizing: content-box;
 }
 
 .all-deals-btn{
