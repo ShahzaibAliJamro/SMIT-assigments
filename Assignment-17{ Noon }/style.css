@@ -160,12 +160,21 @@ body{
     text-decoration: line-through;
     text-decoration-color: red;
     font-weight: 700;
-    font-size: smaller;
+    font-size: 0.8rem;
+}
+
+.meyata{
+    margin: 0 0.5rem 0 0;
 }
 
 .eight-nine-nine{
     font-weight: 700;
-    font-size: larger;
+    font-size: 1.2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card-text-my{
@@ -184,16 +193,16 @@ body{
 }
 
 .cart-add{
-    width: 1.5rem;
+    width: 12%;
     max-width: unset;
-    height: 1.5rem;
+    height: 18%;
     max-height: unset;
     position: absolute;
     bottom: 0.5rem;
     right: 0.5rem;
     background-color: white;
     border-radius: 50%;
-    padding: 5px;
+    padding: 3%;
     box-sizing: content-box;
 }
 
@@ -224,7 +233,9 @@ body{
     margin-bottom: 0.5rem;
 }
 
-
+.ps3-3{
+    padding-left: 1rem;
+}
 
 
 
@@ -267,7 +278,7 @@ body{
     html{
         font-size: 82%;
     }
-    .in-focus-text{
+    /* .in-focus-text{
         margin-bottom: 1.45rem;
     }
     .in-focus-text-3{
@@ -292,13 +303,97 @@ body{
     .card-text-my{
         padding-bottom: 2px;
         font-size: 1rem;
+    } */
+}
+
+@media (max-width: 900px) {
+    html{
+        font-size: 77%;
+    }
+    .card-text-my{
+        padding: 0rem 0.6rem ;
+        font-size: 0.7rem;
+    }
+    .ps3-3{
+        padding-left: 0.6rem;
+    }
+    .one-zero-four-nine{
+        font-size: 0.7rem;
+    }
+    .eight-nine-nine{
+        font-size: 1rem;
     }
 }
+
 @media (max-width: 800px) {
     html{
         font-size: 72%;
     }
 }
+
+@media (max-width: 700px) {
+    html{
+        font-size: 67%;
+    }
+    .card-text-my{
+        font-size: 0.6rem;
+    }
+    .one-zero-four-nine{
+        font-size: 0.6rem;
+    }
+    .eight-nine-nine{
+        font-size: 0.9rem;
+    }
+    .meyata{
+        margin: 0 0.4rem 0 0;
+    }
+}
+
+@media (max-width: 600px) {
+    html{
+        font-size: 62%;
+    }
+    .meyata{
+        margin: 0 0.3rem 0 0;
+    }
+    .mega-deals-in {
+        background-color: #fcd5d5;
+        padding: 7px 0.8rem 0.8rem 0.8rem;
+    }
+    .in-focus-container{
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 500px) {
+    html{
+        font-size: 62%;
+    }
+    .card-text-my{
+        font-size: 0.5rem;
+    }
+    .one-zero-four-nine{
+        font-size: 0.5rem;
+    }
+    .eight-nine-nine{
+        font-size: 0.8rem;
+    }
+    
+    .mega-deals-in {
+        background-color: #fcd5d5;
+        padding: 7px 0.7rem 0.7rem 0.7rem;
+    }
+    .in-focus-container{
+        padding: 0.7rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .eight-nine-nine{
+        font-size: 0.7rem;
+    }
+}
+
 @media (max-width: 1100px) {
     .han {
         display: none;
