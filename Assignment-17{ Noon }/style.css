@@ -100,12 +100,19 @@ body{
 .banner-small-images{
     width: 7%;
 }
-
+.new-banner-small-images{
+    width: 13.2%;
+}
 .banner-categories{
     background-color: #feeaea;
     padding-top: 1.6%;
     padding-bottom: 3.5%;
     justify-content: space-around;
+}
+
+.new-banner-categories{
+    padding-top: 1.6%;
+    padding-bottom: 1%;
 }
 
 .mega-deals{
@@ -326,6 +333,10 @@ body{
     padding-left: 1rem;
 }
 
+.ps7-7{
+    padding: 0.5rem 0 0.1rem 1rem;
+}
+
 .ps5-5{
     column-gap: 0.32rem;
 }
@@ -449,6 +460,9 @@ body{
     }
     .ps3-3{
         padding-left: 0.6rem;
+    }
+    .ps7-7{
+        padding: 0.5rem 0 0.1rem 0.6rem;
     }
     .one-zero-four-nine{
         font-size: 0.7rem;
@@ -745,6 +759,9 @@ body{
     }
     .ps3-3{
         padding-left: 0.3rem;
+    }
+    .ps7-7{
+        padding: 0.5rem 0 0.1rem 0.3rem;
     }
     .eight-nine-nine{
         font-size: 0.6rem;
