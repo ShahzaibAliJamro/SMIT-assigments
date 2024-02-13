@@ -48,7 +48,7 @@ body{
 }
 
 .all-categories {
-    width: 17%;
+    width: 12%;
 }
 
 .mynavbottom {
@@ -289,6 +289,11 @@ body{
     align-self: center;
 }
 
+.green-bag-img{
+    height: 0.9rem;
+    padding-right: 0.2rem;
+}
+
 .all-deals-btn{
     align-self: center;
     font-size: 1rem;
@@ -321,6 +326,10 @@ body{
     padding-left: 1rem;
 }
 
+.ps5-5{
+    column-gap: 0.32rem;
+}
+
 .classofrowgap{
     row-gap: 1rem;
 }
@@ -329,6 +338,39 @@ body{
     border-radius: inherit;
 }
 
+.aed{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.four-six-nine-zero{
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 0.2rem;
+}
+
+.five-zero-nine-nine{
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.eight-percent{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: green;
+    padding-left: 0.2rem;
+}
+
+.express-img{
+    height: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.new-color{
+    background-color: #ffeee5!important;
+}
 
 
 
@@ -352,18 +394,11 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 1400px) {
+    .son{
+        display: none;
+    }
+}
 @media (max-width: 1280px) {
     html{
         font-size: 95%;
@@ -380,7 +415,10 @@ body{
     }
     .second-nav {
     padding: 0.6rem;
-}
+    }
+    .all-categories {
+        width: 17%;
+    }
 }
 @media (max-width: 1000px) {
     html{
@@ -445,13 +483,31 @@ body{
     .my-star-rating-text-1{
         font-size: 0.85rem;
     }
+    .aed{
+        font-size: 0.65rem;
+    }
     
+    .four-six-nine-zero{
+        font-size: 0.95rem;
+    }
+    .express-img{
+        height: 0.95rem;
+    }
+    .five-zero-nine-nine{
+        font-size: 0.65rem;
+    }
+    .eight-percent{
+        font-size: 0.75rem;
+    }
     .my-star-rating-text-2{
         font-size: 0.85rem;
     }
     
     .my-star-rating-icon{
         font-size: 0.65rem;
+    }
+    .green-bag-img{
+        height: 0.65rem;
     }
     .second-nav {
     padding: 0.5rem;
@@ -480,13 +536,31 @@ body{
     .my-star-rating-text-1{
         font-size: 0.8rem;
     }
+    .aed{
+        font-size: 0.6rem;
+    }
     
+    .four-six-nine-zero{
+        font-size: 0.9rem;
+    }
+    .express-img{
+        height: 0.9rem;
+    }
+    .five-zero-nine-nine{
+        font-size: 0.6rem;
+    }
+    .eight-percent{
+        font-size: 0.7rem;
+    }
     .my-star-rating-text-2{
         font-size: 0.8rem;
     }
     
     .my-star-rating-icon{
         font-size: 0.6rem;
+    }
+    .green-bag-img{
+        height: 0.6rem;
     }
 }
 @media (max-width: 700px) {
@@ -539,13 +613,31 @@ body{
     .my-star-rating-text-1{
         font-size: 0.7rem;
     }
+    .aed{
+        font-size: 0.5rem;
+    }
     
+    .four-six-nine-zero{
+        font-size: 0.8rem;
+    }
+    .express-img{
+        height: 0.8rem;
+    }
+    .five-zero-nine-nine{
+        font-size: 0.5rem;
+    }
+    .eight-percent{
+        font-size: 0.6rem;
+    }
     .my-star-rating-text-2{
         font-size: 0.7rem;
     }
     
     .my-star-rating-icon{
         font-size: 0.5rem;
+    }
+    .green-bag-img{
+        height: 0.5rem;
     }
     .second-nav{
         padding: 0.4rem 0.5rem;
@@ -598,13 +690,31 @@ body{
     .my-star-rating-text-1{
         font-size: 0.6rem;
     }
+    .aed{
+        font-size: 0.4rem;
+    }
     
+    .four-six-nine-zero{
+        font-size: 0.7rem;
+    }
+    .express-img{
+        height: 0.7rem;
+    }
+    .five-zero-nine-nine{
+        font-size: 0.4rem;
+    }
+    .eight-percent{
+        font-size: 0.5rem;
+    }
     .my-star-rating-text-2{
         font-size: 0.6rem;
     }
     
     .my-star-rating-icon{
         font-size: 0.4rem;
+    }
+    .green-bag-img{
+        height: 0.4rem;
     }
     .second-nav{
         padding: 0.3rem 0.4rem;
@@ -661,13 +771,31 @@ body{
     .my-star-rating-text-1{
         font-size: 0.5rem;
     }
+    .aed{
+        font-size: 0.3rem;
+    }
     
+    .four-six-nine-zero{
+        font-size: 0.6rem;
+    }
+    .express-img{
+        height: 0.6rem;
+    }
+    .five-zero-nine-nine{
+        font-size: 0.3rem;
+    }
+    .eight-percent{
+        font-size: 0.4rem;
+    }
     .my-star-rating-text-2{
         font-size: 0.5rem;
     }
     
     .my-star-rating-icon{
         font-size: 0.3rem;
+    }
+    .green-bag-img{
+        height: 0.3rem;
     }
     .my-star-rating{
         bottom: 0.7rem;
@@ -690,13 +818,31 @@ body{
     .my-star-rating-text-1{
         font-size: 0.45rem;
     }
+    .aed{
+        font-size: 0.25rem;
+    }
     
+    .four-six-nine-zero{
+        font-size: 0.55rem;
+    }
+    .express-img{
+        height: 0.55rem;
+    }
+    .five-zero-nine-nine{
+        font-size: 0.25rem;
+    }
+    .eight-percent{
+        font-size: 0.35rem;
+    }
     .my-star-rating-text-2{
         font-size: 0.45rem;
     }
     
     .my-star-rating-icon{
         font-size: 0.25rem;
+    }
+    .green-bag-img{
+        height: 0.25rem;
     }
     .my-star-rating{
         bottom: 0.7rem;
