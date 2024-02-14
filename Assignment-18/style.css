@@ -12,13 +12,13 @@ html{
     font-size: 62.5%;
 }
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    padding: 0!important;
+    margin: 0!important;
+    box-sizing: border-box!important;
 }
 body{
-    background-color: var(--black);
-    color: var(--white);
+    background-color: var(--black)!important;
+    color: var(--white)!important;
     font-family: 'Lato', sans-serif;
 }
 .notextdeco{
@@ -59,7 +59,7 @@ body{
     align-items: baseline;
 }
 #firstbutton{
-    padding: 1.5rem 3rem 1.5rem 3rem;
+    padding: 1.5rem 3rem 1.5rem 3rem!important;
     border: 1px solid var(--white);
     border-radius: 3.5rem;
 }
@@ -67,15 +67,15 @@ body{
     background-color: var(--red);
     color: var(--white);
     border: none;
-    padding: 1.6rem 2.2rem 1.6rem 2.2rem;
+    padding: 1.6rem 2.2rem 1.6rem 2.2rem!important;
     border-radius: 2.5rem;
 }
 .secondbutton-arrow{
     background-color: #fff;
     color: #dc3545;
-    padding: 6px 7px;
+    padding: 6px 7px!important;
     border-radius: 23px;
-    margin-left: 7px;
+    margin-left: 7px!important;
 }
 #firstbutton:hover{
     color: var(--white);
@@ -884,11 +884,14 @@ body{
     #firstbutton{
         display: none;
     }
+    #buttons{
+        align-items: center;
+    }
     .navbar-items{
         display: none;
     }
     #header{
-        margin: 0 auto;
+        margin: 0 auto!important;
         width: 92%;
         justify-content: space-between;
     }
@@ -945,13 +948,6 @@ body{
 @media(max-width:665px){
     #second-franchise-main-first {
         justify-content: center;
-    }
-    #bar{
-        display: block;
-        font-size: 2.5rem;
-    }
-    #buttons{
-        align-items: center;
     }
 }
 @media(max-width:600px){
