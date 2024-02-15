@@ -130,8 +130,8 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.3);
     width: 17.4rem;
     margin: auto;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
     border-radius: 37px;
     text-align: center;
 }
@@ -153,9 +153,9 @@ body{
 .order-images{
     background-color: var(--white);
     border-radius: 5px;
-    padding: 5px 19px;
-    width: 25rem;
-    height: 14rem;
+    padding: 5px 19px!important;
+    width: 250px;
+    height: 140px;
 }
 #product-brand-main{
     width: 80%;
@@ -953,6 +953,11 @@ body{
 @media(max-width:600px){
     html{
         font-size: 40%;
+    }
+    .order-images{
+        padding: 5px 15px!important;
+        width: 240px;
+        height: 130px;
     }
     #first-franchise-img-one{
         width: 80%;
