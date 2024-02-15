@@ -164,12 +164,9 @@ body{
 }
 #first-franchise-outside{
     background-color: rgba(255, 255, 255, 0.06);
-    padding-top: 5%;
-    padding-bottom: 5%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
+    padding-top: 5%!important;
+    padding-bottom: 5%!important;
+    gap: 5rem!important;
 }
 #large-s{
     position: absolute;
@@ -183,7 +180,7 @@ body{
     flex-direction: column;
     gap: 1.3rem;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto!important;
     align-items: center;
 }
 .franchise-text{
@@ -275,7 +272,7 @@ body{
 }
 .first-franchise-first-button{
     font-size: 1.4rem;
-    padding: 1.5rem 3rem 1.5rem 3rem;
+    padding: 1.5rem 3rem 1.5rem 3rem!important;
     border: 1px solid var(--white);
     border-radius: 35px;
 }
@@ -304,8 +301,8 @@ body{
 }
 #second-franchise-outside{
     background-color: #000000;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 5%!important;
+    padding-bottom: 5%!important;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -330,8 +327,8 @@ body{
     gap: 4.5rem;
     flex-direction: column;
     display: flex;
-    width: 71.5%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 0 auto !important;
     text-align: center;
 }
 .second-franchise-main-side-text-one{
@@ -351,14 +348,14 @@ body{
 }
 #second-franchise-main-first{
     flex-wrap: wrap;
-    column-gap: 3rem;
+    column-gap: 4rem;
     row-gap: 3.9rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .second-franchise-one{
-    height: 25rem;
-    width: 35rem;
+    height: 250px;
+    width: 350px;
 }
 .second-franchise-main-side-text-two{
     font-weight: 400;
@@ -397,11 +394,11 @@ body{
 }
 #promotion-section{
     background-color: #0f0f0f;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 5rem!important;
+    padding-bottom: 5rem !important;
 }
 #promotion-section-head{
-    padding-bottom: 3.5rem;
+    padding-bottom: 3.5rem !important;
 }
 #promotion-section-main{
     gap: 4rem;
@@ -414,7 +411,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-right: 15px;
+    padding-right: 15px !important;
 }
 #promotion-section-side-text-one{
     font-weight: 500;
@@ -462,7 +459,7 @@ body{
 }
 #promotion-section-first-button{
     font-size: 1.4rem;
-    padding: 15px 30px 15px 30px;
+    padding: 15px 30px 15px 30px !important;
     border-radius: 35px;
     background-color: var(--green);
 }
@@ -475,9 +472,9 @@ body{
 #promotion-section-first-button-arrow{
     background-color: #fff;
     color: var(--green);
-    padding: 6px 7px;
+    padding: 6px 7px !important;
     border-radius: 23px;
-    margin-left: 7px;
+    margin-left: 7px !important;
 }
 #promotion-section-first-button-arrow:hover{
     color: #dc3545;
@@ -837,16 +834,16 @@ body{
     #promotion-section-img{
         width: 77.65rem;
         height: 44.48rem;
-        margin: 0 auto;
+        margin: 0 auto !important;
     }
     #promotion-section-side{
         align-items: center;
         display: flex;
         flex-direction: column;
         gap: 30px;
-        padding-right: 15px;
+        padding-right: 15px !important;
         width: 60%;
-        margin: 0 auto;
+        margin: 0 auto !important;
     }
     #promotion-section-side-main{
         text-align: center;
@@ -863,19 +860,19 @@ body{
         font-size: 50%;
     }
     #first-franchise-img-one{
-        width: 70%;
-        margin: 0 auto;
+        width: 90%;
+        margin: 0 auto!important;
     }
     #first-franchise-img-two{
-        width: 70%;
-        margin: 0 auto;
+        width: 90%;
+        margin: 0 auto!important;
     }
     #first-franchise-img-three{
-        width: 70%;
-        margin: 0 auto;
+        width: 90%;
+        margin: 0 auto!important;
     }
     .first-franchise-main-side{
-        margin: 0 auto;
+        margin: 0 auto!important;
         align-items: center;
         text-align: center;
     }
@@ -905,16 +902,16 @@ body{
         font-size: 45%;
     }
     #first-franchise-img-one{
-        width: 75%;
-        margin: 0 auto;
+        width: 90%;
+        margin: 0 auto!important;
     }
     #first-franchise-img-two{
-        width: 75%;
-        margin: 0 auto;
+        width: 90%;
+        margin: 0 auto!important;
     }
     #first-franchise-img-three{
-        width: 75%;
-        margin: 0 auto;
+        width: 90%;
+        margin: 0 auto!important;
     }
     .franchise-express-one{
         height: 25rem;
@@ -960,16 +957,16 @@ body{
         height: 130px;
     }
     #first-franchise-img-one{
-        width: 80%;
-        margin: 0 auto;
+        width: 100%;
+        margin: 0 auto!important;
     }
     #first-franchise-img-two{
-        width: 80%;
-        margin: 0 auto;
+        width: 100%;
+        margin: 0 auto!important;
     }
     #first-franchise-img-three{
-        width: 80%;
-        margin: 0 auto;
+        width: 100%;
+        margin: 0 auto!important;
     }
     .franchise-express-one{
         height: 25rem;
@@ -982,6 +979,19 @@ body{
 @media(max-width:510px){
     #promotion-section-img{
         width: 90%;
-        margin: 0 auto;
+        margin: 0 auto !important;
+    }
+}
+@media(max-width:400px){
+    .second-franchise-one{
+        width: 48rem;
+        height: 32rem;
+    }
+}
+
+@media(max-width:350px){
+    .second-franchise-one{
+        width: 45rem;
+        height: 30rem;
     }
 }
