@@ -480,8 +480,8 @@ body{
     color: #dc3545;
 }
 #franchise-express-section{
-    padding-bottom: 5%;
-    padding-top: 5%;
+    padding-bottom: 5% !important;
+    padding-top: 5% !important;
     width: 80%;
     margin: 0 auto;
 }
@@ -515,7 +515,7 @@ body{
     line-height: 1.2rem;
     letter-spacing: 0.48em;
     color: #ED1C24;
-    margin-bottom: 8px;
+    margin-bottom: 8px!important;
     display: inline-block;
 }
 .franchise-express-card-text-two{
@@ -554,7 +554,7 @@ body{
 }
 .card-location-img{
     display: block;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 .bg-white{
     background-color: var(--white);
@@ -567,13 +567,13 @@ body{
     text-align: center;
 }
 .franchise-express-one{
-    height: 25rem;
+    height: 25rem !important;
     width: 31%;
 }
 #insta-section{
     width: 100%;
     text-align: center;
-    padding-bottom: 4%;
+    padding-bottom: 4% !important;
 }
 #insta-section-main{
     display: flex;
@@ -915,7 +915,7 @@ body{
     }
     .franchise-express-one{
         height: 25rem;
-        width: 40%;
+        width: 45%;
     }
 }
 @media(max-width:700px){
@@ -970,7 +970,7 @@ body{
     }
     .franchise-express-one{
         height: 25rem;
-        width: 60%;
+        width: 80%;
     }
     #franchise-express-section-main-in {
         justify-content: center;
