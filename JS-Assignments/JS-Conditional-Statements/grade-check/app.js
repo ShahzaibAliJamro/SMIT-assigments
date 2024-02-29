@@ -1,4 +1,4 @@
-var percentage = +prompt('Enter your Percentage');
+var percentage = +prompt("Enter your Percentage and I'll guess your Grade!");
 
 if(percentage > 100){
     document.write("Invalid Percentage !!");

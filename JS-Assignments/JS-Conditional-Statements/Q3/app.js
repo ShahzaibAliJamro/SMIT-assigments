@@ -1,4 +1,4 @@
-var num = +prompt("Enter your age!")
+var num = +prompt("Enter your age and I'll determine if you are old enough to visit this site or not!")
 
 if (num >= 18){
     document.write("You are old enough to visit this site.")

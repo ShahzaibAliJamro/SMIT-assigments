@@ -1,4 +1,4 @@
-var pH = +prompt("Enter a pH value from 1 to 14!")
+var pH = +prompt("Enter a pH value from 1 to 14 and I'll give you some examples of that pH!")
 
 if (pH > 14){
     document.write("Invalid pH value described.")
