@@ -7,4 +7,6 @@ if(time >= 0 && time < 1200){
     alert('Good Evening');
 }else if (time >= 2100 && time < 2400){
     alert('Good Night');
+}else{
+    alert('')
 }
