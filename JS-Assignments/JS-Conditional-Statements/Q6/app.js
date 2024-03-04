@@ -1,4 +1,4 @@
-var num1 = +prompt('Enter a variable');
+var num1 = +prompt('"I am a calculator"\nEnter a variable to calculate!');
 var operator = prompt('What do you want to perform?\nex: + , - , * , / , % .');
 var num2 = +prompt('Enter second variable');
 var num3 = num1 + num2
