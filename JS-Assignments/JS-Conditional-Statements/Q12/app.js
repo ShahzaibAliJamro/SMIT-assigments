@@ -1,5 +1,5 @@
-var num1 = +prompt('Enter an integer!');
-var num2 = +prompt('Enter another integer!');
+var num1 = +prompt("Enter two integers and I'll tell you which one is bigger:\nEnter first Integer:");
+var num2 = +prompt('Enter second integer!');
 if (num1 > num2) {
     document.write('Integer 1 is greater than integer 2.');
 }else if (num1 < num2) {

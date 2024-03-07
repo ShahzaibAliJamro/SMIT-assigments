@@ -1,4 +1,4 @@
-var num1 = +prompt('Enter a number!');
+var num1 = +prompt("Enter a number and I'll tell you if it's a positive number or a negative one!");
 if (num1 > 0) {
     document.write('The number is positive number.');
 }else if (num1 < 0) {

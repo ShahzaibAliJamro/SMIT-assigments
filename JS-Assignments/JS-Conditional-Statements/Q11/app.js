@@ -5,4 +5,4 @@ if(hour < 18){
 }else{
     greeting = "Good Evening";
 }
-console.log(greeting);
+document.write(greeting);
