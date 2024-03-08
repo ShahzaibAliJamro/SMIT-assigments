@@ -1,6 +1,54 @@
+//Q1 Start
+
+
+
+
+
+
+
+
+
 // const num1 = +prompt(`Enter a number`);
 // const num2 = +prompt(`Enter another number`);
 // document.write(`Sum of <b>${num1}</b> and <b>${num2}</b> is <b>${num1+num2}</b>`);
+
+
+
+
+
+
+
+
+
+
+//Q1 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Q2 Start
+
+
+
+
 
 
 // const num3 = +prompt(`Enter a number`);
@@ -19,41 +67,141 @@
 
 
 
+
 // const num9 = +prompt(`Enter a number`);
 // const num10 = +prompt(`Enter another number`);
 // document.write(`modulus of <b>${num9}</b> and <b>${num10}</b> is <b>${num9%num10}</b>`);
 
+
+
+
+
+
+
+
+
+
+
+//Q2 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Q3 Start
+
+
+
+
+
+
+
+
+
+
+
+
 //declaring a variable
-let number;
-document.write(`<h2>Value after variable declaration is ${number}.</h2>`);
+// let number;
+// document.write(`<h2>Value after variable declaration is ${number}.</h2>`);
 
 
 
 
 //assigning a value
-number = 7;
-document.write(`<h2>Initial Value is ${number}.</h2>`);
+// number = 7;
+// document.write(`<h2>Initial Value is ${number}.</h2>`);
 
 
 
 //incrementing the value
-number++;
-document.write(`<h2>Value after increment is ${number}.</h2>`);
+// number++;
+// document.write(`<h2>Value after increment is ${number}.</h2>`);
 
 
 
 //adding the value to 7
-number = number+7;
-document.write(`<h2>Value after addition is ${number}.</h2>`);
+// number = number+7;
+// document.write(`<h2>Value after addition is ${number}.</h2>`);
 
 
 
 //decrementing the value
-number--;
-document.write(`<h2>Value after decrement is ${number}.</h2>`);
+// number--;
+// document.write(`<h2>Value after decrement is ${number}.</h2>`);
 
 
 
 //Calculating the reminder after dividing the final value with 3
-number = number%3;
-document.write(`<h2>The reminder is ${number}.</h2>`);
+// number = number%3;
+// document.write(`<h2>The reminder is ${number}.</h2>`);
+
+
+
+
+
+
+
+
+
+
+
+
+//Q3 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Q4 Start
+
+
+const movieCost = 600;
+const numOfTickets = +prompt(`How many movie tickets do you want? \nPrice of single ticket is 600 PKR.`)
+document.write(`<h1>Your total would be ${600*numOfTickets} PKR.<br><br>
+${numOfTickets} * ${movieCost} = ${600*numOfTickets}</h1>`)
+
+
+
+
+
+//Q4 end
+
+
+
+
+
+
