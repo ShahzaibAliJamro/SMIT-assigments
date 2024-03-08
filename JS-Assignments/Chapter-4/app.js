@@ -1,0 +1,14 @@
+let name1, name2, name3;
+let name4, name5, name6, name7, name8;
+// let 9name, \name10, =name11, .name12, %name3;
+document.write(`<h1>Rules for naming JS variables.</h1>`);
+document.write(`<br/>`);
+document.write(`1 . Variable names can only contain: numbers, $ and _ .<br/> ex: $my_1stVariable`);
+document.write(`<br/>`);
+document.write(`<br/>`);
+document.write(`2 . Variable name must begin with a letter, $ and _ .<br/> ex: $myVariable, myVariable, _myVariable.`);
+document.write(`<br/>`);
+document.write(`<br/>`);
+document.write(`3 . Variable names are case sensitive.`);document.write(`<br/>`);
+document.write(`<br/>`);
+document.write(`4 . Variable names should'nt be JS keywords.`);
