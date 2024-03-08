@@ -23,5 +23,37 @@
 // const num10 = +prompt(`Enter another number`);
 // document.write(`modulus of <b>${num9}</b> and <b>${num10}</b> is <b>${num9%num10}</b>`);
 
+//declaring a variable
+let number;
+document.write(`<h2>Value after variable declaration is ${number}.</h2>`);
 
 
+
+
+//assigning a value
+number = 7;
+document.write(`<h2>Initial Value is ${number}.</h2>`);
+
+
+
+//incrementing the value
+number++;
+document.write(`<h2>Value after increment is ${number}.</h2>`);
+
+
+
+//adding the value to 7
+number = number+7;
+document.write(`<h2>Value after addition is ${number}.</h2>`);
+
+
+
+//decrementing the value
+number--;
+document.write(`<h2>Value after decrement is ${number}.</h2>`);
+
+
+
+//Calculating the reminder after dividing the final value with 3
+number = number%3;
+document.write(`<h2>The reminder is ${number}.</h2>`);
