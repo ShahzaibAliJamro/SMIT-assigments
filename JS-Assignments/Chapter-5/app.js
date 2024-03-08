@@ -189,10 +189,10 @@
 //Q4 Start
 
 
-const movieCost = 600;
-const numOfTickets = +prompt(`How many movie tickets do you want? \nPrice of single ticket is 600 PKR.`)
-document.write(`<h1>Your total would be ${600*numOfTickets} PKR.<br><br>
-${numOfTickets} * ${movieCost} = ${600*numOfTickets}</h1>`)
+// const movieCost = 600;
+// const numOfTickets = +prompt(`How many movie tickets do you want? \nPrice of single ticket is 600 PKR.`)
+// document.write(`<h1>Your total would be ${600*numOfTickets} PKR.<br><br>
+// ${numOfTickets} * ${movieCost} = ${600*numOfTickets}</h1>`)
 
 
 
@@ -205,3 +205,38 @@ ${numOfTickets} * ${movieCost} = ${600*numOfTickets}</h1>`)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Q5 Start
+
+
+
+
+// document.write(`<h2>Table of 7 : </h2> 7 x 1 = <b>7</b>
+// <br/><br/> 7 x 2 = <b>14</b>
+// <br/><br/> 7 x 3 = <b>21</b>
+// <br/><br/> 7 x 4 = <b>28</b>
+// <br/><br/> 7 x 5 = <b>35</b>
+// <br/><br/> 7 x 6 = <b>42</b>
+// <br/><br/> 7 x 7 = <b>49</b>
+// <br/><br/> 7 x 8 = <b>56</b>
+// <br/><br/> 7 x 9 = <b>63</b>
+// <br/><br/> 7 x 10 = <b>70</b>`);
+
+
+
+
+
+
+//Q5 end
