@@ -316,3 +316,44 @@
 
 
 //Q7 End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Q8 Start
+
+
+
+
+
+document.write(`<h1>Marks Sheet</h1><br/>`);
+
+const totalMarks = 980;
+const marksObtained = 804;
+const percentage = marksObtained/totalMarks*100;
+document.write(`<p>Total Marks : ${totalMarks}.</p>`);
+document.write(`<p>Marks Obtained : ${marksObtained}.</p>`);
+document.write(`<p>Percentage : ${percentage}%.</p>`);
+
+
+
+
+
+//Q8 End
