@@ -268,4 +268,51 @@
 
 
 
-const celcius = +prompt(`I will covert Celcius into Farenheit. \nEnter a celcius temperature!`);
+// const celcius = +prompt(`I will convert Celcius into Fahrenheit. \nEnter a celcius temperature!`);
+// const celcToFahr = (celcius*9/5)+32;
+// document.write(`${celcius} deg C, is ${celcToFahr} deg F.`);
+// document.write(`<br/>`);
+// document.write(`<br/>`);
+
+// const Fahrenheit = +prompt(`I will convert Fahrenheit into Celcius. \nEnter a Fahrenheit temperature!`);
+// const fahrToCelc = (Fahrenheit-32)*5/9;
+// document.write(`${Fahrenheit} deg F, is ${fahrToCelc} deg C.`);
+
+
+
+
+//Q6 End
+
+
+
+
+
+
+
+
+//Q7 Start
+
+
+// const priceItem1 = 650;
+// const quantityItem1 = 3;
+// const priceItem2 = 100;
+// const quantityItem2 = 7;
+// const shippingCharges = 100;
+// const total = (priceItem1*quantityItem1)+(priceItem2*quantityItem2)+shippingCharges;
+
+// document.write(`Price of Item 1 is ${priceItem1}.`);
+// document.write(`<br/>`);
+// document.write(`Quantity of Item 1 is ${quantityItem1}.`);
+// document.write(`<br/>`);
+// document.write(`Price of Item 2 is ${priceItem2}.`);
+// document.write(`<br/>`);
+// document.write(`Quantity of Item 2 is ${quantityItem2}.`);
+// document.write(`<br/>`);
+// document.write(`Shipping Charges are ${shippingCharges}.`);
+// document.write(`<br/>`);
+// document.write(`<br/>`);
+// document.write(`Total cost of your order is ${total}.`);
+
+
+
+//Q7 End
