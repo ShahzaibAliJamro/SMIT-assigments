@@ -240,3 +240,32 @@
 
 
 //Q5 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Q6 Start
+
+
+
+
+const celcius = +prompt(`I will covert Celcius into Farenheit. \nEnter a celcius temperature!`);
