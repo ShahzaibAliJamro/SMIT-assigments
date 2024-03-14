@@ -261,3 +261,36 @@
 //Q12 Start
 
 
+// const radius = +prompt("Enter a radius value:");
+// const pi = 3.14159;
+// const circumference = 2*pi*radius;
+// const area = pi*(radius*radius);
+// document.write(`Radius of the circle = <b>${radius}</b></br>`);
+// document.write(`Circumference of the circle = <b>${circumference}</b></br>`);
+// document.write(`Area of the circle = <b>${area}</b></br>`);
+
+
+//Q12 End
+
+
+
+
+
+
+//Q13 Start
+
+
+const snack = prompt('Enter your favorite snack!');
+const age = +prompt('Enter your current age!');
+const maxAge = +prompt('Enter a maximum current age!');
+const amountPerDay = +prompt('Enter an estimated amount of snack per day (as a number).')
+const netAge = maxAge-age;
+const final = (netAge*365)*amountPerDay;
+document.write(`Favorite snack = <b>${snack}</b></br>`);
+document.write(`Your Current Age = <b>${age}</b></br>`);
+document.write(`Maximum Age = <b>${maxAge}</b></br>`);
+document.write(`Amount of snacks per day = <b>${amountPerDay}</b></br>`);
+document.write(`You will need ${final} to last you until the ripe old age of ${maxAge}`);
+
+
+//Q13 End
