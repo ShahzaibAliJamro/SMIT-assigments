@@ -147,11 +147,28 @@
 //               Q8 Start
 
 
-let shop = ['cake','apple pie','cookie','chips','patties',];
+// let shop = ['cake','apple pie','cookie','chips','patties',];
+// let order = prompt('Assalam-o-Alaikum, Welcome to ABC Bakers. \nWhat do you want to order sir/madam?');
+// if (shop.includes(order)) {
+//     console.log(`${order} is availabe at index ${shop.indexOf(order)} in our bakery.`);
+// }else{
+//     console.log(`we are sorry! ${order} is not available at our bakery.`);
+// }
 
-let order = prompt('Assalam-o-Alaikum, Welcome to ABC Bakers. \nWhat do you want to order sir/madam?');
-if (shop.includes(order)) {
-    console.log(`${order} is availabe at index ${shop.indexOf(order)} in our bakery.`);
-}else{
-    console.log(`we are sorry! ${order} is not available at our bakery.`);
+
+//               Q8 End
+
+
+
+
+
+
+
+//               Q9 Start
+
+
+let A = [24,53,78,91,12];
+document.write(`Array items = `);
+for (let index = 0; index < A.length; index++) {
+    document.write(`${A[index]}, `);
 }
