@@ -167,8 +167,74 @@
 //               Q9 Start
 
 
-let A = [24,53,78,91,12];
-document.write(`Array items = `);
-for (let index = 0; index < A.length; index++) {
-    document.write(`${A[index]}, `);
-}
+// let A = [24,53,78,91,12];
+// document.write(`Array items =  `);
+// for (let index = 0; index < A.length; index++) {
+//     document.write(`${A[index]}, `);
+// }
+// let max = A[0];
+// for (let j = 0; j < A.length; j++) {
+//     if (A[j]> max) {
+//         max = A[j];
+//     }
+// }
+// document.write(`<br><br>The largest number is ${max}.`);
+
+
+//               Q9 End
+
+
+
+
+
+
+
+//               Q10 Start
+
+
+// let Arr = [24,53,78,91,12];
+// document.write(`Array items =  `);
+// for (let index = 0; index < Arr.length; index++) {
+//     document.write(`${Arr[index]}, `)
+// }
+// let min = Arr[0];
+// for (let b = 0; b < Arr.length; b++) {
+//     if(Arr[b] < min){
+//         min = Arr[b];
+//     }
+// }
+// document.write(`<br><br>The smallest number in the array would be ${min}.`)
+
+
+//               Q10 End
+
+
+
+
+
+
+//               Q11 Start
+
+
+// let Arr = [24,53,78,91,12];
+// document.write(`Array items =  `);
+// for (let index = 0; index < Arr.length; index++) {
+//     document.write(`${Arr[index]}, `)
+// }
+// let max = Arr[0];
+// for (let i = 0; i < Arr.length; i++) {
+//     if (Arr[i]>max) {
+//         max = Arr[i];
+//     }
+// }
+// document.write(`<br><br>The largest value in this array would be ${max}.`)
+// let min = Arr[0];
+// for (let a = 0; a < Arr.length; a++) {
+//     if (Arr[a]<min) {
+//         min = Arr[a];
+//     }
+// }
+// document.write(`<br>The smallest value in this array would be ${min}.`)
+
+
+//               Q11 End
