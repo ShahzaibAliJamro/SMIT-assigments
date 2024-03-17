@@ -302,6 +302,25 @@
 
 let scores = [12,45,3,22,34,50];
 let input = +prompt(`Enter a number!`);
-for (let index = 0; index = input; index++) {
-    document.write(`${scores[index]}, `)
+for (let index = 0; index < scores.length; index++) {
+    if (scores[index] == input) {
+        document.write(`${scores[index]}, `)
+        break;
+    }else{
+        document.write(`${scores[index]}, `)
+    }
 }
+
+
+//               Q14 End
+
+
+
+
+
+
+
+
+//               Q15 Start
+
+
