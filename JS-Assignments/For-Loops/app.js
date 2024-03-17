@@ -69,6 +69,7 @@
 
 
 
+
 //               Q5 Start
 
 
@@ -90,6 +91,7 @@
 
 
 
+
 //               Q6 Start
 
 
@@ -104,6 +106,7 @@
 
 
 //               Q6 End
+
 
 
 
@@ -144,6 +147,7 @@
 
 
 
+
 //               Q8 Start
 
 
@@ -157,6 +161,7 @@
 
 
 //               Q8 End
+
 
 
 
@@ -189,6 +194,7 @@
 
 
 
+
 //               Q10 Start
 
 
@@ -207,6 +213,8 @@
 
 
 //               Q10 End
+
+
 
 
 
@@ -238,3 +246,62 @@
 
 
 //               Q11 End
+
+
+
+
+
+
+
+
+//               Q12 Start
+
+
+// for (let index = 1; index <= 20; index++) {
+//     document.write(`${5*index}, `)
+// }
+
+
+//               Q12 End
+
+
+
+
+
+
+
+
+//               Q13 Start
+
+
+// let students = ['Ali','Sami','Taha','Inam','Shahzaib'];
+// let scores = [58,73,89,90,57];
+// let table = document.querySelector('table');
+// table.innerHTML += `<tr>
+// <th>Students</th>
+// <th>Scores</th>
+// </tr>`
+// for (let index = 0; index < students.length; index++) {
+//     table.innerHTML += `<tr>
+//     <td>${students[index]}</td><td>${scores[index]}</td>
+//     </tr>`;
+// }
+
+
+//               Q13 End
+
+
+
+
+
+
+
+
+//               Q14 Start
+
+
+let scores = [12,45,3,22,34,50];
+let input = +prompt(`Enter a number!`);
+for (let index = 0; index = input; index++) {
+    document.write(`${scores[index]}, `)
+}
