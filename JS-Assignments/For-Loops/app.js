@@ -324,3 +324,28 @@
 //               Q15 Start
 
 
+// let A = [[1,2,3],[4,5,6],[7,8,9]];
+// for (let index = 0; index < A.length; index++) {
+//     document.write(`${A[index]}<br>`)
+// }
+
+
+//               Q15 End
+
+
+
+
+
+
+
+
+//               Q16 Start
+
+
+let num = +prompt('Enter a number!');
+for (let index = num*2; index >= 0; index--) {
+    document.write(`<b>${index/2}</b>, `)
+}
+
+
+//               Q16 End
