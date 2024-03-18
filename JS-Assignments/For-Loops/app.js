@@ -342,10 +342,78 @@
 //               Q16 Start
 
 
-let num = +prompt('Enter a number!');
-for (let index = num*2; index >= 0; index--) {
-    document.write(`<b>${index/2}</b>, `)
-}
+// let num = +prompt('Enter a number!');
+// for (let index = num*2; index >= 0; index--) {
+//     document.write(`<b>${index/2}</b>, `)
+// }
 
 
 //               Q16 End
+
+
+
+
+
+
+
+
+//               Q17 Start
+
+
+// for (let index = 0; index <= 20; index++) {
+//     if (index % 2 == 0) {
+//         document.write(`${index} is even. <br>`);
+//     }else{
+//         document.write(`${index} is odd. <br>`);
+//     }
+// }
+
+
+//               Q17 End
+
+
+
+
+
+
+
+
+//               Q18 Start
+
+
+// let product = 1;
+// for (let index = 0; index <= 7; index++) {
+//     if (index % 2 !== 0) {
+//         product *= index;
+//     }
+// }
+// document.write(`${product}`);
+
+// let product = 1;
+// for (let index = 0; index < 20; index++) {
+//     if (index % 2 === 0) {
+//         product *= index;
+//     }
+// }
+// document.write(`${product}`);
+// console.log(product);
+
+
+//               Q18 End
+
+
+
+
+
+
+
+
+//               Q19 Start
+
+
+let stars = +prompt("enter a number");
+let stars2 = ``;
+for (let index = stars; index >= 1; index--) {
+    stars2 += `*`;
+    document.write(`${stars2}<br>`);
+}
