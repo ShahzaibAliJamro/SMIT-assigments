@@ -411,14 +411,14 @@
 //               Q19 Start
 
 
-let stars = +prompt("enter a number");
-for (let index = stars; index >= 1; index--) {
-    let stars2 = ``;
-    for (let j = 0; j < index; j++) {
-        stars2 += '*';
-    }
-    console.log(stars2);
-}
+// let stars = +prompt("enter a number");
+// for (let index = stars; index >= 1; index--) {
+//     let stars2 = ``;
+//     for (let j = 0; j < index; j++) {
+//         stars2 += '*';
+//     }
+//     console.log(stars2);
+// }
 
 
 //               Q19 End
@@ -433,3 +433,11 @@ for (let index = stars; index >= 1; index--) {
 //               Q20 Start
 
 
+let input = 5
+for (let i = input; i >= 1; i--) {
+    let stars = '';
+    for (let j = 0; j < i; j++) {
+        stars += '*';
+    }
+    console.log(stars);
+}
