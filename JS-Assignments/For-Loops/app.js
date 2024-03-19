@@ -412,8 +412,24 @@
 
 
 let stars = +prompt("enter a number");
-let stars2 = ``;
 for (let index = stars; index >= 1; index--) {
-    stars2 += `*`;
-    document.write(`${stars2}<br>`);
+    let stars2 = ``;
+    for (let j = 0; j < index; j++) {
+        stars2 += '*';
+    }
+    console.log(stars2);
 }
+
+
+//               Q19 End
+
+
+
+
+
+
+
+
+//               Q20 Start
+
+
