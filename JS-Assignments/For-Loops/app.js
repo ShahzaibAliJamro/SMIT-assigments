@@ -433,11 +433,20 @@
 //               Q20 Start
 
 
-let input = 5
-for (let i = input; i >= 1; i--) {
-    let stars = '';
-    for (let j = 0; j < i; j++) {
-        stars += '*';
-    }
-    console.log(stars);
-}
+//     part 1
+// let input = +prompt('enter a number');
+// for (let index = 0; index < input; index++) {
+//     document.write('*****' + '</br>');
+// }
+
+//     part 2
+// let input = +prompt('enter a number');
+// for (let index = 1; index <= input; index++) {
+//     // console.log(stars)
+//     let stars = '';
+//     for (let j = 0; j < index; j++) {
+//         stars += '*';
+//     }
+//     document.write('<br>', stars)
+//     console.log(stars);
+// }
