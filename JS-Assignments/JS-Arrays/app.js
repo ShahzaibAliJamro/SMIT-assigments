@@ -92,33 +92,8 @@
 
 //          Q11 START
 
-// let names = [];
-// let scores = [];
-// let totalNum = 500;
-// document.write(`
-// <h2>Q11</h2>
-// <input type="text" placeholder="enter your name" id="input1">
-// <br><br>
-// <input type="number" placeholder="enter your obtained marks" id="input2">
-// <br>
-// <br>
-// <button onclick="getStudentData()">Click ME!</button>
-// <h1 class="heading"></h1>`);
-// let input1 = document.querySelector('#input1');
-// let input2 = document.querySelector('#input2');
-// let output = document.querySelector('.heading');
-// function getStudentData() {
-//     output.innerHTML = ''
-//     names.push(input1.value);
-//     input1.value = '';
-//     scores.push(input2.value);
-//     input2.value = '';
-//     for (let i = 0; i < scores.length; i++) {
-//         let percentage = (scores[i]/totalNum*100);
-//         output.innerHTML += `Score of ${names[i]} is ${scores[i]} and Percentage = ${percentage}% <br>`;
-//     }
-// }
-let names = ['Michael','John','Tony'];
+// posible answer a
+let names = [];
 let scores = [];
 let totalNum = 500;
 document.write(`
@@ -144,3 +119,14 @@ function getStudentData() {
         output.innerHTML += `Score of ${names[i]} is ${scores[i]} and Percentage = ${percentage}% <br>`;
     }
 }
+
+// posible answer b
+// let names = ['Michael','John','Tony'];
+// let scores = [320,230,480];
+// let totalNum = 500;
+// document.write(`<h2 class="abc"></h2>`)
+// let output = document.querySelector('.abc');
+// for (let i = 0; i < scores.length; i++) {
+//     let percentage = (scores[i]/totalNum*100);
+//     output.innerHTML += `Score of ${names[i]} is ${scores[i]} and Percentage = ${percentage}% <br>`;
+// }
