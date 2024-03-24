@@ -93,32 +93,32 @@
 //          Q11 START
 
 // posible answer a
-let names = [];
-let scores = [];
-let totalNum = 500;
-document.write(`
-<h2>Q11</h2>
-<input type="text" placeholder="enter your name" id="input1">
-<br><br>
-<input type="number" placeholder="enter your obtained marks" id="input2">
-<br>
-<br>
-<button onclick="getStudentData()">Click ME!</button>
-<h1 class="heading"></h1>`);
-let input1 = document.querySelector('#input1');
-let input2 = document.querySelector('#input2');
-let output = document.querySelector('.heading');
-function getStudentData() {
-    output.innerHTML = ''
-    names.push(input1.value);
-    input1.value = '';
-    scores.push(input2.value);
-    input2.value = '';
-    for (let i = 0; i < scores.length; i++) {
-        let percentage = (scores[i]/totalNum*100);
-        output.innerHTML += `Score of ${names[i]} is ${scores[i]} and Percentage = ${percentage}% <br>`;
-    }
-}
+// let names = [];
+// let scores = [];
+// let totalNum = 500;
+// document.write(`
+// <h2>Q11</h2>
+// <input type="text" placeholder="enter your name" id="input1">
+// <br><br>
+// <input type="number" placeholder="enter your obtained marks" id="input2">
+// <br>
+// <br>
+// <button onclick="getStudentData()">Click ME!</button>
+// <h1 class="heading"></h1>`);
+// let input1 = document.querySelector('#input1');
+// let input2 = document.querySelector('#input2');
+// let output = document.querySelector('.heading');
+// function getStudentData() {
+//     output.innerHTML = ''
+//     names.push(input1.value);
+//     input1.value = '';
+//     scores.push(input2.value);
+//     input2.value = '';
+//     for (let i = 0; i < scores.length; i++) {
+//         let percentage = (scores[i]/totalNum*100);
+//         output.innerHTML += `Score of ${names[i]} is ${scores[i]} and Percentage = ${percentage}% <br>`;
+//     }
+// }
 
 // posible answer b
 // let names = ['Michael','John','Tony'];
@@ -130,3 +130,24 @@ function getStudentData() {
 //     let percentage = (scores[i]/totalNum*100);
 //     output.innerHTML += `Score of ${names[i]} is ${scores[i]} and Percentage = ${percentage}% <br>`;
 // }
+
+
+
+//          Q12 START
+
+let colors = ["red", "blue", "green", "yellow", "orange", "purple", "pink", "cyan", "magenta", "teal"];
+let colors1 = document.write(`<h3 class = "no1"></h3>`);
+let no1 = document.querySelector(".no1");
+no1.innerHTML = `<h3>Initial array</h3>${colors}`;
+document.write(`
+<input type="text" placeholder="enter a value" id="input1">
+<button onclick="input1Push()">Click ME!</button>
+<h3 class="h21"></h3>
+`);
+let input1 = document.querySelector('#input1');
+let h21 = document.querySelector('.h21');
+function input1Push() {
+    colors.unshift(input1.value);
+    input1.value = '';
+    h21.innerHTML = `<h3>Updated array</h3>${colors}`;
+}
