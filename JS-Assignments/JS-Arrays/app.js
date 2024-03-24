@@ -136,18 +136,40 @@
 //          Q12 START
 
 let colors = ["red", "blue", "green", "yellow", "orange", "purple", "pink", "cyan", "magenta", "teal"];
-let colors1 = document.write(`<h3 class = "no1"></h3>`);
+let colors1 = document.write(`<p class = "no1"></p>`);
 let no1 = document.querySelector(".no1");
-no1.innerHTML = `<h3>Initial array</h3>${colors}`;
+no1.innerHTML = `<h3>1. Initial array</h3>${colors}`;
+
+// a
+
 document.write(`
-<input type="text" placeholder="enter a value" id="input1">
-<button onclick="input1Push()">Click ME!</button>
-<h3 class="h21"></h3>
+<input type="text" placeholder="Add another color at start" id="input1">
+<button onclick="input1Push()">Add</button>
+<p class="h21"></p>
 `);
 let input1 = document.querySelector('#input1');
 let h21 = document.querySelector('.h21');
 function input1Push() {
     colors.unshift(input1.value);
     input1.value = '';
-    h21.innerHTML = `<h3>Updated array</h3>${colors}`;
+    h21.innerHTML = `<h3>2. Array after adding 1 at the beginning.</h3>${colors}`;
+}
+
+// b and c
+
+document.write(`
+<input type="text" placeholder="Add another color at end" id="input2">
+<button onclick="input2Push()">Add</button>
+<p class="h22"></p>
+`);
+let input2 = document.querySelector('#input2');
+let h22 = document.querySelector('.h22');
+document.write(`<p class="h23"></p>`);
+let h23 = document.querySelector('.h23');
+function input2Push() {
+    colors.push(input2.value);
+    input2.value = '';
+    h22.innerHTML = `<h3>3. Array after adding 1 at the end.</h3>${colors}`;
+    colors.unshift('Sarcoline','Coquelicot');
+    h23.innerHTML = `<h3>3. Array after adding 2 more at the beginning.</h3>${colors}`;
 }
