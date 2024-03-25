@@ -241,7 +241,28 @@
 
 //          Q15 START
 
-let cities = ['Karachi', 'Lahore', 'Islamabad', 'Rawalpindi', 'Faisalabad'];
-let selectedCities = cities.slice(0,5);
-console.log(cities);
-console.log(selectedCities);
+// let cities = ['Karachi', 'Lahore', 'Islamabad', 'Rawalpindi', 'Faisalabad'];
+// document.write(
+//     `<h2 class='h1'></h2>
+//     <h2 class='h2'></h2>`
+// )
+// let h1 = document.querySelector('.h1');
+// let h2 = document.querySelector('.h2');
+// h1.innerHTML = `<h2>Cities List:</h2>${cities}`;
+// let selectedCities = cities.slice(1,4);
+// h2.innerHTML = `<h2>Selected Cities List:</h2>${selectedCities}`;
+// // console.log(cities);
+// // console.log(selectedCities);
+
+
+
+//          Q16 START
+
+// var arr = ['This','is','my','cat'];
+// let joined = arr.join(' ');
+// console.log(joined);
+
+
+
+//          Q17 START
+
