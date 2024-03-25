@@ -143,6 +143,7 @@ no1.innerHTML = `<h3>1. Initial array</h3>${colors}`;
 // a
 
 document.write(`
+<h3>Q12 part a</h3>
 <input type="text" placeholder="Add another color at start" id="input1">
 <button onclick="input1Push()">Add</button>
 <p class="h21"></p>
@@ -158,6 +159,7 @@ function input1Push() {
 // b and c
 
 document.write(`
+<h3>Q12 part b</h3>
 <input type="text" placeholder="Add another color at end" id="input2">
 <button onclick="input2Push()">Add</button>
 <p class="h22"></p>
@@ -166,10 +168,55 @@ let input2 = document.querySelector('#input2');
 let h22 = document.querySelector('.h22');
 document.write(`<p class="h23"></p>`);
 let h23 = document.querySelector('.h23');
+document.write(`<p class="h24"></p>`);
+let h24 = document.querySelector('.h24');
+document.write(`<p class="h25"></p>`);
+let h25 = document.querySelector('.h25');
+document.write(`<p class="h26"></p>`);
+let h26 = document.querySelector('.h26');
 function input2Push() {
     colors.push(input2.value);
     input2.value = '';
     h22.innerHTML = `<h3>3. Array after adding 1 at the end.</h3>${colors}`;
-    colors.unshift('Sarcoline','Coquelicot');
-    h23.innerHTML = `<h3>3. Array after adding 2 more at the beginning.</h3>${colors}`;
+    colors.unshift('Sarcoline', 'Coquelicot');
+    h23.innerHTML = `<h3>4. Array after adding 2 more at the beginning.</h3>${colors}`;
+    colors.shift();
+    h24.innerHTML = `<h3>5. Array after deleting 1 at the beginning.</h3>${colors}`;
+    colors.pop();
+    h25.innerHTML = `<h3>6. Array after deleting 1 at the end.</h3>${colors}`;
+    h26.innerHTML = `<h3>7. Enter in 1st field where you want to add a color, enter the color name in the second field.</h3>`;
+}
+
+// f
+
+document.write(`
+<h3>Q12 part f</h3>
+<input type="text" placeholder="where do you want to add" id="input3">
+<input type="text" placeholder="enter color name" id="input4">
+<button onclick="input3Push()">Add</button>
+<p class="h27"></p>
+`);
+let h27 = document.querySelector('.h27');
+let input3 = document.querySelector('#input3');
+let input4 = document.querySelector('#input4');
+function input3Push() {
+colors.splice(input3.value,0,input4.value);
+h27.innerHTML = `${colors}`;
+}
+
+// g
+
+document.write(`
+<h3>Q12 part g</h3>
+<input type="text" placeholder="where do you want to dlt from" id="input5">
+<input type="text" placeholder="how many do you want to dlt" id="input6">
+<button onclick="input4Push()">Add</button>
+<p class="h28"></p>
+`);
+let h28 = document.querySelector('.h28');
+let input5 = document.querySelector('#input5');
+let input6 = document.querySelector('#input6');
+function input4Push() {
+colors.splice(input5.value,input6.value,);
+h28.innerHTML = `${colors}`;
 }
