@@ -266,29 +266,62 @@
 
 //          Q17 START
 
-let devices = [];
-console.log(devices);
-let push1 = devices.push('keyboard');
-console.log('add =>', devices[push1-1]);
-console.log(devices);
-let push2 = devices.push('mouse');
-console.log('add =>', devices[push2-1]);
-console.log(devices);
-let push3 = devices.push('printer');
-console.log('add =>', devices[push3-1]);
-console.log(devices);
-let push4 = devices.push('monitor');
-console.log('add =>', devices[push4-1]);
-console.log(devices);
-let shift1 = devices.shift();
-console.log('out => ' , shift1);
-console.log(devices);
-let shift2 = devices.shift();
-console.log('out => ' , shift2);
-console.log(devices);
-let shift3 = devices.shift();
-console.log('out => ' , shift3);
-console.log(devices);
-let shift4 = devices.shift();
-console.log('out => ' , shift4);
-console.log(devices);
+// let devices = [];
+// console.log(devices);
+// let push1 = devices.push('keyboard');
+// console.log('add =>', devices[push1-1]);
+// console.log(devices);
+// let push2 = devices.push('mouse');
+// console.log('add =>', devices[push2-1]);
+// console.log(devices);
+// let push3 = devices.push('printer');
+// console.log('add =>', devices[push3-1]);
+// console.log(devices);
+// let push4 = devices.push('monitor');
+// console.log('add =>', devices[push4-1]);
+// console.log(devices);
+// let shift1 = devices.shift();
+// console.log('out => ' , shift1);
+// console.log(devices);
+// let shift2 = devices.shift();
+// console.log('out => ' , shift2);
+// console.log(devices);
+// let shift3 = devices.shift();
+// console.log('out => ' , shift3);
+// console.log(devices);
+// let shift4 = devices.shift();
+// console.log('out => ' , shift4);
+// console.log(devices);
+// console.log('This illustrates the FIFO behavior, as the first element to be added =keyboard= is the first one to get removed');
+
+
+
+//          Q18 START
+
+// let devices = [];
+// console.log(devices);
+// let push1 = devices.push('keyboard');
+// console.log('add =>', devices[push1-1]);
+// console.log(devices);
+// let push2 = devices.push('mouse');
+// console.log('add =>', devices[push2-1]);
+// console.log(devices);
+// let push3 = devices.push('printer');
+// console.log('add =>', devices[push3-1]);
+// console.log(devices);
+// let push4 = devices.push('monitor');
+// console.log('add =>', devices[push4-1]);
+// console.log(devices);
+// let pop1 = devices.pop();
+// console.log('out => ' , pop1);
+// console.log(devices);
+// let pop2 = devices.pop();
+// console.log('out => ' , pop2);
+// console.log(devices);
+// let pop3 = devices.pop();
+// console.log('out => ' , pop3);
+// console.log(devices);
+// let pop4 = devices.pop();
+// console.log('out => ' , pop4);
+// console.log(devices);
+// console.log('This illustrates the LIFO behavior, as the first element to be added =keyboard= is the last one to get removed');
