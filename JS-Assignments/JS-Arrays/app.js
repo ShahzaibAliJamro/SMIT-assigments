@@ -325,3 +325,40 @@
 // console.log('out => ' , pop4);
 // console.log(devices);
 // console.log('This illustrates the LIFO behavior, as the first element to be added =keyboard= is the last one to get removed');
+
+
+
+//          Q19 START
+
+// let phoneManufacturers = ["Apple", "Samsung", "Huawei", "Xiaomi", "Google"];
+// document.write(`
+// <select id="select">
+//     </select>
+// `);
+// let select = document.querySelector('#select');
+// for (let index = 0; index < phoneManufacturers.length; index++) {
+//     select.innerHTML += `
+//     <option value="">${phoneManufacturers[index]}</option>
+//     `;
+// }
+
+
+
+//          Q20 START
+
+// let multiArray = [
+//     [],
+//     [],
+//     []
+// ]
+
+
+
+//          Q21 START
+
+// let matrix = [
+//     [0,1,2,3],
+//     [1,0,1,2],
+//     [2,1,0,1]
+// ]
+// console.log(matrix);
