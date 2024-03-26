@@ -4,33 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Manipulation</title>
-    <style>
-        .input{
-            min-width: 270px;
-            padding: 5px;
-            margin: 10px 0;
-        }
-        button{
-            margin-top: 10px;
-            padding: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body style="text-align: center;">
-    <h2>Marks Checker<br>Total Marks are 400.</h2>
-    <p>Enter Your Name Here:</p>
-    <input type="text" placeholder="Your Name" class="input1 input">
-    <p>Enter Subject 1 Marks:</p>
-    <input type="text" placeholder="Max Marks : 100" class="input2 input">
-    <p>Enter Subject 2 Marks:</p>
-    <input type="text" placeholder="Max Marks : 100" class="input3 input">
-    <p>Enter Subject 3 Marks:</p>
-    <input type="text" placeholder="Max Marks : 100" class="input4 input">
-    <p>Enter Subject 4 Marks:</p>
-    <input type="text" placeholder="Max Marks : 100" class="input5 input">
-    <br>
-    <button onclick="inputValue()">Submit.</button>
-    <h2 id="head">Your Result will show here.</h2>
+    <div class="container">
+        <h2>Marks Checker</h2>
+        <p class="label">Enter Your Name Here:</p>
+        <input type="text" placeholder="Your Name" class="input1 input">
+        <p class="label">Enter Subject 1 Marks:</p>
+        <input type="number" placeholder="Max Marks : 100" class="input2 input">
+        <p class="label">Enter Subject 2 Marks:</p>
+        <input type="number" placeholder="Max Marks : 100" class="input3 input">
+        <p class="label">Enter Subject 3 Marks:</p>
+        <input type="number" placeholder="Max Marks : 100" class="input4 input">
+        <p class="label">Enter Subject 4 Marks:</p>
+        <input type="number" placeholder="Max Marks : 100" class="input5 input">
+        <p class="label">Enter Maximum Marks:</p>
+        <input type="number" placeholder="Enter the maximum marks based on which % is calculated" class="input0 input">
+        <button class="button" onclick="inputValue()">Submit.</button>
+        <h2 class="result" id="head">Your Result will show here.</h2>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
