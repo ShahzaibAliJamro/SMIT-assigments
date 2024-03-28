@@ -43,9 +43,9 @@
 
 //       Q5
 
-let string = 'Pakistani';
-console.log('string =>', string);
-console.log("Character at 3rd index =>" , string.charAt(3));
+// let string = 'Pakistani';
+// console.log('string =>', string);
+// console.log("Character at 3rd index =>" , string.charAt(3));
 
 
 
@@ -68,7 +68,28 @@ console.log("Character at 3rd index =>" , string.charAt(3));
 
 //       Q8
 
-// var message = 'Ali and Sami are best friends. They play cricket and football together.';
-// console.log("message => " , message);
-// let replace2 = message.replace(/and/g,'&');
-// console.log("message after replacement => " , replace2);
+var message = 'Ali and Sami are best friends. They play cricket and football together.';
+console.log("message => " , message);
+let replace2 = message.replace(/and/g,'&');
+console.log("message after replacement => " , replace2);
+
+
+
+//       Q9
+
+let string = '472';
+console.log('Value =>', string);
+console.log("Type =>", typeof(string));
+let number = parseFloat(string);
+console.log('Value =>', number);
+console.log("Type =>", typeof(number));
+
+
+
+//       Q10
+document.write(`<h1 class="h1"></h1><h1 class="h2"></h1>`);
+let h1 = document.querySelector(".h1");
+let h2 = document.querySelector(".h2");
+let url = prompt("Enter a URL in the following format \nwww.google.com", "www.");
+h1.innerHTML = "URL : " + url;
+h2.innerHTML = "Domain : " + url.replace('www.','');
