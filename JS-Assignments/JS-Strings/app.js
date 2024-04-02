@@ -121,7 +121,29 @@
 
 
 
+
+
+
 //       Q13
+
+// document.write(`<h1 class="h1"></h1><h1 class="h2"></h1>`);
+// let h1 = document.querySelector(".h1");
+// let h2 = document.querySelector(".h2");
+// let input = prompt("Enter an word and I'll make it titlecase");
+// function titleCase(str) {
+//     return str.toLowerCase().replace(/(?:^|\s|-)\w/g, function(match) {
+//         return match.toUpperCase();
+//     });
+// }
+// let input1 = titleCase(input);
+// h1.innerHTML = "User Input: " + input;
+// h2.innerHTML = "Title Case: " + input1;
+
+
+
+
+
+//       Q14
 
 // let num = 35.56;
 // let newNum = num + "";
@@ -129,7 +151,7 @@
 
 
 
-//       Q14
+//       Q15
 
 // document.write(`<h1 class="h1"></h1><h1 class="h2"></h1><h1 class="h3"></h1>`);
 // let h1 = document.querySelector(".h1");
