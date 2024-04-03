@@ -98,9 +98,9 @@
 // let array = [];
 // let array_length = +prompt(`Enter length!`)
 // document.write('Number of items = ' + array_length + '<br>');
-// document.write('items = <br><br><br>');
+// document.write('items = <br>');
 // for (let i = 0; i < array_length; i++) {
-//     array[i] = prompt('Enter items!');
+//     array[i] = prompt(`Enter the value of index ${i} !`);
 //     document.write(`${array[i]}<br>`)
 // }
 
@@ -452,12 +452,12 @@
 // }
 
 //     part 3
-let input = +prompt('enter a number');
-for (let index = input; index > 0; index--) {
-    let stars = ''
-    for (let j = 0; j < index; j++) {
-        stars += '*';
-    }
-    document.write('<br>', stars)
-    console.log(stars);
-}
+// let input = +prompt('enter a number');
+// for (let index = input; index > 0; index--) {
+//     let stars = ''
+//     for (let j = 0; j < index; j++) {
+//         stars += '*';
+//     }
+//     document.write('<br>', stars)
+//     console.log(stars);
+// }
