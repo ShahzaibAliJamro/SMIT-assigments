@@ -382,21 +382,21 @@
 // }
 
 
-const nestedObj = {
-    names: {
-        secondPosition: [
-            {},
-            {
-                names: [
-                    {
-                        names: ['heelo', 'helo2']
-                    }
-                ]
-            }
-        ]
-    }
-}
-console.log(nestedObj.names.secondPosition[1].names[0].names[0])
+// const nestedObj = {
+//     names: {
+//         secondPosition: [
+//             {},
+//             {
+//                 names: [
+//                     {
+//                         names: ['heelo', 'helo2']
+//                     }
+//                 ]
+//             }
+//         ]
+//     }
+// }
+// console.log(nestedObj.names.secondPosition[1].names[0].names[0])
 
 
 
@@ -474,7 +474,7 @@ console.log(nestedObj.names.secondPosition[1].names[0].names[0])
 //         ]
 //     }
 // ];
-
+// console.log(nestedData[0].subcategories[1].products[2].model);
 // console.log(nestedData[0].subcategories[0].products[0].model)
 
 
