@@ -166,5 +166,96 @@
 
 
 
-//       Q15
+//       Q16
 
+// document.write(`<h1 class="h1"></h1><h1 class="h2"></h1><h1 class="h3"></h1>`);
+// let h1 = document.querySelector(".h1");
+// let h2 = document.querySelector(".h2");
+// let h3 = document.querySelector(".h3");
+// let a = '3';
+// let b = '3';
+// let y = a-b;
+// h1.innerHTML = `a is ${a}`;
+// h2.innerHTML = `b is ${b}`;
+// h3.innerHTML = `a - b is ${y}`;
+
+
+
+//       Q17
+
+// document.write(
+//     `<input type="text" class="input">
+//     <button onclick="clickMe()">click</button>`
+// );
+// let input = document.querySelector(".input");
+// let value;
+// function clickMe(){
+//     value = input.value;
+//     console.log(value);
+//     for (let index = 0; index < value.length; index++) {
+//         if (value[index] == String.fromCharCode(33) || value[index] == String.fromCharCode(44) || value[index] == String.fromCharCode(46) || value[index] == String.fromCharCode(64)) {
+//             alert('Please enter a valid username');
+//         }else{
+//             console.log(value);
+//         }
+//     }
+// }
+
+
+
+//       Q18
+
+// let array = [
+//     "cupcake",
+//     "brownie",
+//     "cheesecake",
+//     "apple pie",
+//     "donut",
+//     "cookies",
+//     "pound cake",
+// ];
+// document.write(
+//     `<h2>Welcome to ABC Bakery!</h2>
+//     <h3>What would you like to order from our menu down below?</h3>
+//     <ul class='ul'>
+//     </ul>
+//     <input type="text" class="input">
+//     <button onclick="clickMe()">click</button>`
+// );
+// let ul = document.querySelector('.ul');
+// for (let index = 0; index < array.length; index++) {
+//     ul.innerHTML += `<li>${array[index]}</li>`
+// }
+// let input = document.querySelector(".input");
+// function clickMe(){
+//     let user = input.value;
+//     for (let index = 0; index < array.length; index++) {
+//         if (array[index] == user.toLowerCase()) {
+//             alert(`${user} is available at index ${index} in our bakery.`)
+//         }
+//     }
+//     if (array.includes(user.toLowerCase())) {
+
+//     }else{
+//         alert(`${user} is not available at our bakery.`)
+//     }
+// }
+
+
+
+//       Q19
+
+let input1 = prompt("Enter a string");
+let input2 = prompt("Enter another string");
+
+document.write('<h1 class="h1"></h1>');
+let h1 = document.querySelector(".h1");
+if (input1.length > input2.length) {
+    h1.innerHTML = `${input1} is greater than ${input2}`
+}
+if (input1.length < input2.length) {
+    h1.innerHTML = `${input2} is greater than ${input1}`
+}
+if (input1.length == input2.length) {
+    h1.innerHTML = `${input2} is equal to ${input1}`
+}
