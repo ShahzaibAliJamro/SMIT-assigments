@@ -290,18 +290,34 @@
 
 //       Q22
 
-document.write(`
-<input class="input" type="text" placeholder="Input">
-<button onclick="checkLastString()">Log In</button>
-<h1 class="h1"><h1>
-`)
-let h1 = document.querySelector(".h1");
-let input = document.querySelector('.input');
-function checkLastString() {
-    let character = input.value;
-    let input2 = character.length;
-    h1.innerHTML = `
-    User input: ${character} </br>
-    Last character of input: ${character[input2-1]}
-    `
+// document.write(`
+// <input class="input" type="text" placeholder="Input">
+// <button onclick="checkLastString()">Log In</button>
+// <h1 class="h1"><h1>
+// `)
+// let h1 = document.querySelector(".h1");
+// let input = document.querySelector('.input');
+// function checkLastString() {
+//     let character = input.value;
+//     let input2 = character.length;
+//     h1.innerHTML = `
+//     User input: ${character} </br>
+//     Last character of input: ${character[input2-1]}
+//     `
+// }
+
+
+
+
+//       Q23
+
+let newString = "The quick brown fox jumps over the lazy dog";
+let splittedString = newString.toLowerCase().split(' ');
+console.log(splittedString);
+let num;
+for (let index = 0; index < splittedString.length; index++) {
+    if (splittedString[index] === 'the') {
+        num += 1;
+    }
 }
+console.log(num);
