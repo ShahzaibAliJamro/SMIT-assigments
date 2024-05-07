@@ -275,12 +275,33 @@
 
 //       Q21
 
+// document.write(`
+// <div class="h1"></div>
+// `)
+// let div = document.querySelector(".h1");
+// let uni = 'university of karachi';
+// let uni2 = uni.split('');
+// for (let index = 0; index < uni2.length; index++) {
+//     div.innerHTML += `<h2>${uni2[index]}</h2>`
+// }
+
+
+
+
+//       Q22
+
 document.write(`
+<input class="input" type="text" placeholder="Input">
+<button onclick="checkLastString()">Log In</button>
 <h1 class="h1"><h1>
 `)
 let h1 = document.querySelector(".h1");
-let uni = 'university of karachi';
-let uni2 = uni.split('');
-for (let index = 0; index < uni2.length; index++) {
-    h1.innerHTML += `<p>${uni2[index]}</p>`
+let input = document.querySelector('.input');
+function checkLastString() {
+    let character = input.value;
+    let input2 = character.length;
+    h1.innerHTML = `
+    User input: ${character} </br>
+    Last character of input: ${character[input2-1]}
+    `
 }
