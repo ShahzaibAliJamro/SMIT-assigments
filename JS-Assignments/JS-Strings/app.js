@@ -245,17 +245,42 @@
 
 //       Q19
 
-let input1 = prompt("Enter a string");
-let input2 = prompt("Enter another string");
+// let input1 = prompt("Enter a string");
+// let input2 = prompt("Enter another string");
 
-document.write('<h1 class="h1"></h1>');
+// document.write('<h1 class="h1"></h1>');
+// let h1 = document.querySelector(".h1");
+// if (input1.length > input2.length) {
+//     h1.innerHTML = `${input1} is greater than ${input2}`
+// }
+// if (input1.length < input2.length) {
+//     h1.innerHTML = `${input2} is greater than ${input1}`
+// }
+// if (input1.length == input2.length) {
+//     h1.innerHTML = `${input2} is equal to ${input1}`
+// }
+
+
+
+//       Q20
+
+// document.write(`
+// <input class="input" type="text" placeholder="Enter your password">
+// <button onclick="checkPassword()">Log In</button>
+// `)
+// let input = document.querySelector(".input");
+
+
+
+
+//       Q21
+
+document.write(`
+<h1 class="h1"><h1>
+`)
 let h1 = document.querySelector(".h1");
-if (input1.length > input2.length) {
-    h1.innerHTML = `${input1} is greater than ${input2}`
-}
-if (input1.length < input2.length) {
-    h1.innerHTML = `${input2} is greater than ${input1}`
-}
-if (input1.length == input2.length) {
-    h1.innerHTML = `${input2} is equal to ${input1}`
+let uni = 'university of karachi';
+let uni2 = uni.split('');
+for (let index = 0; index < uni2.length; index++) {
+    h1.innerHTML += `<p>${uni2[index]}</p>`
 }
