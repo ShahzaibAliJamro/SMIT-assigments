@@ -452,12 +452,12 @@
 // }
 
 //     part 3
-let input = +prompt('enter a number');
-for (let index = input; index > 0; index--) {
-    let stars = ''
-    for (let j = 0; j < index; j++) {
-        stars += '*';
-    }
-    document.write('<br>', stars)
-    console.log(stars);
-}
+// let input = +prompt('enter a number');
+// for (let index = input; index > 0; index--) {
+//     let stars = ''
+//     for (let j = 0; j < index; j++) {
+//         stars += '*';
+//     }
+//     document.write('<br>', stars)
+//     console.log(stars);
+// }
