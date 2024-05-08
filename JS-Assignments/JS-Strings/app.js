@@ -311,13 +311,36 @@
 
 //       Q23
 
-let newString = "The quick brown fox jumps over the lazy dog";
-let splittedString = newString.toLowerCase().split(' ');
-console.log(splittedString);
-let num;
-for (let index = 0; index < splittedString.length; index++) {
-    if (splittedString[index] === 'the') {
-        num += 1;
+// let newString = "The quick brown fox jumps over the lazy dog";
+// let splittedString = newString.toLowerCase().split(' ');
+// console.log(splittedString);
+// let num = 0;
+// for (let index = 0; index < splittedString.length; index++) {
+//     if (splittedString[index] === 'the') {
+//         num += 1;
+//     }
+// }
+// console.log(num);
+
+
+
+
+//       Q24
+
+let str = 'Pakistan'.toLowerCase();
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+let vowelsNum = 0;
+for (let index = 0; index < str.length; index++) {
+    if (str[index] === 'a' || str[index] === 'e' || str[index] === 'i' || str[index] === 'o' || str[index] === 'u') {
+        vowelsNum += 1;
     }
 }
-console.log(num);
+const consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'];
+let consonantsNum = 0;
+for (let index = 0; index < str.length; index++) {
+    if (consonants.includes(str[index])) {
+        consonantsNum += 1;
+    }
+}
+console.log(consonantsNum);
+console.log(vowelsNum);
