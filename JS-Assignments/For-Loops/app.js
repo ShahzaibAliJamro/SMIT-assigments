@@ -552,7 +552,7 @@
 
 
 
-//           Q8
+//           Q7
 
 // document.write('<h3 class="h1"></h3>');
 // let h1 = document.querySelector(".h1");
@@ -618,7 +618,7 @@
 
 
 
-//             Q9
+//             Q8
 
 
 // document.write('<h3 class="h1"></h3>');
@@ -640,15 +640,51 @@
 
 
 
-//             Q10
+//             Q9
 
 
 // document.write('<h3 class="h1"></h3>');
 // let h1 = document.querySelector(".h1");
 
 // let A = [24,53,78,91,12,45,69,92];
-// A.sort();
-// console.log(A[A.length-1]);
+// h1.innerHTML = `Array Items are: `
+// let largestNum = 0;
+// for (let i = 0; i < A.length; i++) {
+//     h1.innerHTML += `${A[i]}, `
+//     if (largestNum < A[i]) {
+//         largestNum = A[i];
+//     }
+// }
+// let str = h1.innerHTML;
+// str = str.slice(0,-2);
+// h1.innerHTML = str;
+// h1.innerHTML += `<br><br>The largest Number is ${largestNum}`
+
+
+
+//             Q10
+
+
+// document.write('<h3 class="h1"></h3>');
+// let h1 = document.querySelector(".h1");
+// let A = [6,24,53,78,91,1,12,45,69,92,100,545];
+// let smallestNum = 0;
+// h1.innerHTML = `Array Items are: `
+// for (let i = 0; i < A.length; i++) {
+//     h1.innerHTML += `${A[i]}, `
+//     if (smallestNum < A[i]) {
+//         smallestNum = A[i];
+//     }
+// }
+// for (let i = 0; i < A.length; i++) {
+//     if (smallestNum > A[i]) {
+//         smallestNum = A[i];
+//     }
+// }
+// let str = h1.innerHTML;
+// str = str.slice(0,-2);
+// h1.innerHTML = str;
+// h1.innerHTML += `<br><br>The smallest Number in the array is ${smallestNum}.`;
 
 
 
@@ -657,15 +693,106 @@
 
 // document.write('<h3 class="h1"></h3>');
 // let h1 = document.querySelector(".h1");
-
-// let A = [24,53,78,91,12,45,69,92];
+// let A = [6,24,53,78,91,1,12,45,69,92,100,545];
+// let smallestNum = 0;
 // h1.innerHTML = `Array Items are: `
 // for (let i = 0; i < A.length; i++) {
 //     h1.innerHTML += `${A[i]}, `
+//     if (smallestNum < A[i]) {
+//         smallestNum = A[i];
+//     }
 // }
 // let str = h1.innerHTML;
 // str = str.slice(0,-2);
 // h1.innerHTML = str;
-// A.sort();
-// h1.innerHTML += `<br><br> The largest Number is ${A[A.length-1]}`
-// console.log(A[A.length-1]);
+// h1.innerHTML += `<br><br>The largest Number is ${smallestNum}.`
+// for (let i = 0; i < A.length; i++) {
+//     if (smallestNum > A[i]) {
+//         smallestNum = A[i];
+//     }
+// }
+// h1.innerHTML += `<br><br>The smallest Number is ${smallestNum}.`;
+
+
+
+//             Q12
+
+
+// document.write('<h3 class="h1"></h3>');
+// let h1 = document.querySelector(".h1");
+
+// for (let i = 1; i <= 20; i++) {
+//     h1.innerHTML += `${i*5}, `
+// }
+
+
+
+//             Q13
+
+
+// document.write("<table class='table' style='border: 1px solid;'><tr><th>Students</th><th>Scores</th></tr></table>");
+// let h1 = document.querySelector(".table");
+
+// var students = ["Ali", "Sami", "Taha", "Inam"];
+// var scores = [58, 73, 89, 90];
+
+// for (let i = 0; i < students.length; i++) {
+//     h1.innerHTML += `<tr>
+//     <td>${students[i]}</td>
+//     <td>${scores[i]}</td>
+//     </tr>`
+// }
+
+
+
+//             Q14
+
+
+// document.write('<h3 class="h1"></h3>');
+// let h1 = document.querySelector(".h1");
+// var scores = [12, 45, 3, 22, 34, 50];
+// let input = +prompt('Where do you want to stop the rendering of array?');
+// for (let i = 0; i < scores.length; i++) {
+//     if (input === scores[i]) {
+//         h1.innerHTML += `${scores[i]}`
+//         break
+//     }else{
+//         h1.innerHTML += `${scores[i]}, `;
+//     }
+// }
+
+
+
+//             Q15
+
+
+// document.write('<h3 class="h1"></h3>');
+// let h1 = document.querySelector(".h1");
+
+// A = [ [1,2,3] , [4,5,6] , [7,8,9] ];
+
+// for (let i = 0; i < A.length; i++) {
+//     for (let j = 0; j < 3; j++) {
+//         h1.innerHTML += `${A[i][j]} `;
+//     }
+//     h1.innerHTML += ` <br>`
+// }
+
+
+
+//             Q16
+
+
+document.write('<h3 class="h1"></h3>');
+let h1 = document.querySelector(".h1");
+let input = +prompt('Enter a number');
+for (let i = input; i >= 0; i--) {
+    console.log(i);
+    for (let j = 0; j < 1; j++) {
+        if (i < 1) {
+            break
+        }else{
+            console.log(i-0.5);
+        }
+    }
+}
