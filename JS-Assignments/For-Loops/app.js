@@ -592,13 +592,80 @@
 
 
 
-document.write('<h3 class="h1"></h3>');
-let h1 = document.querySelector(".h1");
+// document.write('<h3 class="h1"></h3>');
+// let h1 = document.querySelector(".h1");
 
-h1.innerHTML = `Odd Counting: `
-for (let i = 1; i <= 10; i++) {
-    h1.innerHTML += `${i*2}, `
-}
-let str = h1.innerHTML;
-str = str.slice(0,-2);
-h1.innerHTML = str;
+// h1.innerHTML = `Odd Counting: `
+// for (let i = 1; i <= 10; i++) {
+//     h1.innerHTML += `${i*2-1}, `
+// }
+// let str = h1.innerHTML;
+// str = str.slice(0,-2);
+// h1.innerHTML = str;
+
+
+
+// document.write('<h3 class="h1"></h3>');
+// let h1 = document.querySelector(".h1");
+
+// h1.innerHTML = `Series: `
+// for (let i = 1; i <= 10; i++) {
+//     h1.innerHTML += `${i*2}k, `
+// }
+// let str = h1.innerHTML;
+// str = str.slice(0,-2);
+// h1.innerHTML = str;
+
+
+
+//             Q9
+
+
+// document.write('<h3 class="h1"></h3>');
+// let h1 = document.querySelector(".h1");
+
+// let shop = ['cake','apple pie','cookie','chips','patties',];
+
+// let order = prompt(`Welcome to Bakery! \nWhat would you like to order?`).toLowerCase();
+
+// for (let i = 0; i < shop.length; i++) {
+//     if (order === shop[i]) {
+//         alert(`${order} is available at index ${i} in our bakery`)
+//         break
+//     }else{
+//         alert(`Sorry, ${order} is not available at our bakery`)
+//         break
+//     }
+// }
+
+
+
+//             Q10
+
+
+// document.write('<h3 class="h1"></h3>');
+// let h1 = document.querySelector(".h1");
+
+// let A = [24,53,78,91,12,45,69,92];
+// A.sort();
+// console.log(A[A.length-1]);
+
+
+
+//             Q11
+
+
+// document.write('<h3 class="h1"></h3>');
+// let h1 = document.querySelector(".h1");
+
+// let A = [24,53,78,91,12,45,69,92];
+// h1.innerHTML = `Array Items are: `
+// for (let i = 0; i < A.length; i++) {
+//     h1.innerHTML += `${A[i]}, `
+// }
+// let str = h1.innerHTML;
+// str = str.slice(0,-2);
+// h1.innerHTML = str;
+// A.sort();
+// h1.innerHTML += `<br><br> The largest Number is ${A[A.length-1]}`
+// console.log(A[A.length-1]);
