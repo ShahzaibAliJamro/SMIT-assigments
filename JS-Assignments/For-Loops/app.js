@@ -461,3 +461,47 @@
 //     document.write('<br>', stars)
 //     console.log(stars);
 // }
+
+
+
+
+
+
+
+
+
+
+
+//           Q1
+
+// document.write('<h2 class="h1"></h2>');
+// let h1 = document.querySelector(".h1");
+
+// for (let i = 1; i <= 5; i++) {
+//     h1.innerHTML += 'Hello World <br> <br>';
+// }
+
+
+
+//           Q2
+
+// document.write('<h2 class="h1"></h2>');
+// let h1 = document.querySelector(".h1");
+
+// for (let i = 1; i <= 10; i++) {
+//     h1.innerHTML += i + '<br>';
+// }
+
+
+
+//           Q3
+
+// document.write('<h2 class="h1"></h2>');
+// let h1 = document.querySelector(".h1");
+
+// let tableNum = +prompt('Enter the table Number');
+// let tableLength = +prompt('Enter the table Length');
+
+// for (let index = 1; index <= tableLength; index++) {
+//     h1.innerHTML += `${tableNum} * ${index} = ${tableNum*index} <br> <br>`;
+// }
