@@ -505,3 +505,100 @@
 // for (let index = 1; index <= tableLength; index++) {
 //     h1.innerHTML += `${tableNum} * ${index} = ${tableNum*index} <br> <br>`;
 // }
+
+
+//           Q4
+
+// document.write('<h2 class="h1"></h2>');
+// let h1 = document.querySelector(".h1");
+
+// const A = ['Nokia', 'Samsung', 'Apple', 'Sony', 'Huawei']
+
+// for (let i = 0; i < A.length; i++) {
+//     h1.innerHTML += `${A[i]} <br>`
+// }
+
+
+//           Q5
+
+// document.write('<h2 class="h1"></h2>');
+// let h1 = document.querySelector(".h1");
+
+// fruits = ['apple', 'banana', 'mango', 'orange', 'strawberry']
+
+// for (let i = 0; i < fruits.length; i++) {
+//     h1.innerHTML += `${fruits[i]} <br>`
+// }
+// h1.innerHTML += `<br><br>`
+// for (let i = 0; i < fruits.length; i++) {
+//     h1.innerHTML += `Element at index ${i} is ${fruits[i]} <br>`
+// }
+
+
+//           Q6
+
+// document.write('<h2 class="h1"></h2>');
+// let h1 = document.querySelector(".h1");
+
+// let arr = [];
+
+// let arrLength = +prompt('Enter array length');
+// arr.length = arrLength;
+// h1.innerHTML = `Number of Items: ${arr.length} <br> Items: <br><br>`
+// for (let i = 0; i < arr.length; i++) {
+//     arr[i] = prompt(`Enter the value of index ${i}`)
+//     h1.innerHTML += `${arr[i]} <br>`
+// }
+
+
+
+//           Q8
+
+// document.write('<h3 class="h1"></h3>');
+// let h1 = document.querySelector(".h1");
+// h1.innerHTML = `Counting: `
+// for (let i = 0; i <= 15; i++) {
+//     h1.innerHTML += ` ${i}, `
+// }
+// let str = h1.innerHTML;
+// str = str.slice(0,-2);
+// h1.innerHTML = str;
+
+
+
+// document.write('<h3 class="h1"></h3>');
+// let h1 = document.querySelector(".h1");
+
+// h1.innerHTML = `Reverse Counting: `
+// for (let i = 10; i >= 1; i--) {
+//     h1.innerHTML += `${i}, `
+// }
+// let str = h1.innerHTML;
+// str = str.slice(0,-2);
+// h1.innerHTML = str;
+
+
+
+// document.write('<h3 class="h1"></h3>');
+// let h1 = document.querySelector(".h1");
+
+// h1.innerHTML = `Even Counting: `
+// for (let i = 0; i <= 10; i++) {
+//     h1.innerHTML += `${i*2}, `
+// }
+// let str = h1.innerHTML;
+// str = str.slice(0,-2);
+// h1.innerHTML = str;
+
+
+
+document.write('<h3 class="h1"></h3>');
+let h1 = document.querySelector(".h1");
+
+h1.innerHTML = `Odd Counting: `
+for (let i = 1; i <= 10; i++) {
+    h1.innerHTML += `${i*2}, `
+}
+let str = h1.innerHTML;
+str = str.slice(0,-2);
+h1.innerHTML = str;
